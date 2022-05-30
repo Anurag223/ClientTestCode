@@ -1,0 +1,5 @@
+﻿#client_secret {
+    text-security: disc; /* IE/Safari */
+    -moz-text-security: disc; /* FireFox */
+    -webkit-text-security: disc; /* Chrome/Safari */
+}

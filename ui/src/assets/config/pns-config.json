@@ -1,0 +1,12 @@
+{
+  "equipmentAPI": "http://localhost:5000/api/equipment/v1.0/",
+  "workOrderAPI": "http://localhost:5000/api/workorder/v1.0/",
+  "workCenterAPI": "http://localhost:5000/api/workcenter/v1.0/",
+  "userProfileAPI": "http://localhost:5000/api/userprofile/v1.0/",
+  "personelResourceAPI": "http://localhost:5000/api/userprofile/v1.0/",
+  "assignResourceToWorkCenterAPI": "http://localhost:49947/api/WorkCenter/AssignResourceToWorkCenter",
+  "unAssignResourceToWorkCenterAPI": "http://localhost:49947/api/WorkCenter/UnAssignResourceToWorkCenter",
+  "getResourceBySiteWorkCenterAPI": "http://localhost:49947/api/WorkCenter/GetResourcesBySiteWorkCenter",
+  "siteWorkCenterJson": "../assets/api/workcenter/workcenter.json",
+  "resourcesJson": "../assets/api/workcenter/Resources.json"
+}

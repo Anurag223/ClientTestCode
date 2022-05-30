@@ -1,0 +1,13 @@
+<div
+  *ngIf="loading"
+  id="progressBarComponent"
+  class="progress-bar"
+  [style.width]="width && width > 0 ? width + 'px' : '100%'"
+>
+  <div class="progress-bar-text">
+    <span>{{ message | translate: paramters }}</span>
+  </div>
+  <div class="progress-wrapper" title="{{ title }}">
+    <div id="progressBarLine" [style.width.%]="percentComplete"></div>
+  </div>
+</div>

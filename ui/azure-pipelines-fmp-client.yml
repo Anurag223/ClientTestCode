@@ -1,0 +1,31 @@
+pool:
+  name: es-TLM-federation
+  demands: 
+    - Agent.ComputerName -equals AZR6382DEVAPP05
+
+trigger:
+  batch: false
+  branches:
+    include:
+      - 'develop'
+      - 'master'
+  paths:
+    include:
+      - ui/*
+
+variables:
+  - group: 'Mateo2 microservice'
+
+steps:
+  - template: devops/azure-pipelines-steps.yml
+    parameters:
+      imageTag: $(build.imageTag)
+      dockerid: $(docker.id)
+      dockerpassword: $(docker.password)
+      dockerregistry: $(docker.registry)
+      imagename: 'tlm-utils-client-dev-app'
+      cacheDirective: '--no-cache'
+      BuildBuildId: $(Build.BuildId)
+      ArtifactStagingDirectory: $(Build.ArtifactStagingDirectory)
+      DefaultWorkingDirectory: $(System.DefaultWorkingDirectory)
+      sourceBranchName: $(Build.SourceBranchName)

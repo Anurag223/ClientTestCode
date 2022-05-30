@@ -1,0 +1,23 @@
+[
+    {
+        "_id": ObjectId("5bf6a83383418f926ca5be6a"),
+        "ID": NumberInt(2),
+        "Name": "Port",
+        "ParentID": NumberInt(2),
+        "Type": "test",
+        "Description": "test2",
+        "AssignedTo": "averma16",
+        "Attributes": [
+            {
+                "Name": "Attr1",
+                "Value": "value1"
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Action1",
+                "Value": "Action1value"
+            }
+        ]
+    }
+]

@@ -1,0 +1,153 @@
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f4482195d"), 
+    "ID" : NumberInt(1), 
+    "Name" : "Administrator", 
+    "Description" : "Administrator", 
+    "MappedCMMSRoles" : [
+        NumberInt(1)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f4482195e"), 
+    "ID" : NumberInt(2), 
+    "Name" : "Asset Coordinator", 
+    "Description" : "Asset Coordinator", 
+    "MappedCMMSRoles" : [
+        NumberInt(2), 
+        NumberInt(21), 
+        NumberInt(26), 
+        NumberInt(32)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f4482195f"), 
+    "ID" : NumberInt(3), 
+    "Name" : "Viewer", 
+    "Description" : "Viewer", 
+    "MappedCMMSRoles" : [
+        NumberInt(3), 
+        NumberInt(6), 
+        NumberInt(10), 
+        NumberInt(11), 
+        NumberInt(17), 
+        NumberInt(18), 
+        NumberInt(19), 
+        NumberInt(20), 
+        NumberInt(28)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f44821960"), 
+    "ID" : NumberInt(4), 
+    "Name" : "Equipment Readiness Lead/ Engineer", 
+    "Description" : "Equipment Readiness Lead/ Engineer", 
+    "MappedCMMSRoles" : [
+        NumberInt(4), 
+        NumberInt(5), 
+        NumberInt(7), 
+        NumberInt(9), 
+        NumberInt(8), 
+        NumberInt(13), 
+        NumberInt(29)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f44821961"), 
+    "ID" : NumberInt(5), 
+    "Name" : "Business System Administrator", 
+    "Description" : "Business System Administrator", 
+    "MappedCMMSRoles" : [
+        NumberInt(12), 
+        NumberInt(14)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f44821962"), 
+    "ID" : NumberInt(6), 
+    "Name" : "Logistics Specialist", 
+    "Description" : "Logistics Specialist", 
+    "MappedCMMSRoles" : [
+        NumberInt(15)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f44821963"), 
+    "ID" : NumberInt(7), 
+    "Name" : "Quality Control Supervisor", 
+    "Description" : "Quality Control Supervisor", 
+    "MappedCMMSRoles" : [
+        NumberInt(16), 
+        NumberInt(23), 
+        NumberInt(24)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f44821964"), 
+    "ID" : NumberInt(8), 
+    "Name" : "Maintenance Manager", 
+    "Description" : "Maintenance Manager", 
+    "MappedCMMSRoles" : [
+        NumberInt(22)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f44821965"), 
+    "ID" : NumberInt(9), 
+    "Name" : "Maintenance Supervisor", 
+    "Description" : "Maintenance Supervisor", 
+    "MappedCMMSRoles" : [
+        NumberInt(25)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f44821966"), 
+    "ID" : NumberInt(10), 
+    "Name" : "RSO", 
+    "Description" : "RSO", 
+    "MappedCMMSRoles" : [
+        NumberInt(27)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("5c051d5bf5ff8d2f44821967"), 
+    "ID" : NumberInt(11), 
+    "Name" : "Service Writer", 
+    "Description" : "Service Writer", 
+    "MappedCMMSRoles" : [
+        NumberInt(30), 
+        NumberInt(31)
+    ], 
+    "MappedClaims" : [
+
+    ]
+}

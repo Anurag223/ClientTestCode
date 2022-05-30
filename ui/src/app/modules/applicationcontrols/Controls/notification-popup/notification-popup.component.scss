@@ -1,0 +1,84 @@
+@import "src/assets/style/variable";
+@import "src/assets/style/mixin";
+
+.notification-title {
+  color: $white;
+  font-size: 15px;
+  font-family: $robotobold;
+  width: 100%;
+  margin-top: -12px;
+  .notification-icon {
+    color: $white;
+    margin-right: 5px;
+  }
+  .notification-close {
+    float: right;
+    color: $white;
+    margin-top: 5px;
+  }
+}
+.notification-checkbox {
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  display: inherit;
+}
+.close-notification-button {
+  width: 75px;
+  float: right;
+  margin: 0px;
+}
+.user-notifications-popup {
+  height: 400px !important;
+  width: 660px !important;
+  min-width: 660px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  background: #ffffff;
+  border: 1px solid #e8ecf2;
+  position: absolute;
+  left: -20%;
+  bottom: -190px;
+  .notification-header {
+    height: 32px;
+    width: 660px;
+    background: #5a7793; //#669bc6;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+  .notification-body {
+    height: 250px;
+    padding: 24px;
+    font-family: $robotoregular;
+  }
+
+  ::ng-deep {
+    .fmp-information-title {
+      font-size: 20px;
+      color: #2d343d;
+      font-family: $robotobold;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+    .fmp-planned-outage {
+      color: #ff9800;
+      font-size: 16px;
+      font-family: $robotobold;
+    }
+    .details-div {
+      height: 200px;
+      overflow-y: scroll;
+      border: 1px solid lightgray;
+      background: #f8f8f8;
+      font-family: $robotoregular;
+    }
+    .checkbox-hide-popup {
+      display: inline-grid !important;
+      margin-right:2px!important;
+      font-size: 12px!important;
+      cursor:pointer;
+    }
+  }
+}

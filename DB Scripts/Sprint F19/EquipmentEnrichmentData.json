@@ -1,0 +1,514 @@
+{ 
+    "_id" : ObjectId("5c2c78590ae0cf78e4acc4c7"), 
+    "ID" : NumberInt(1), 
+    "EquipmentCode" : "HECH-KS", 
+    "AssetSerialNo" : "22", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6304273", 
+        "CreatedDateTime" : "Wed Jan 16 2019 19:07:52 GMT+0530 (India Standard Time)", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T08:02:29.600Z", 
+        "RIMEIndex" : NumberInt(1666), 
+        "AssignedParameters" : [
+            {
+                "Name" : "Demand", 
+                "Value" : NumberInt(336)
+            }, 
+            {
+                "Name" : "Parts available", 
+                "Value" : NumberInt(322)
+            }, 
+            {
+                "Name" : "Engine", 
+                "Value" : NumberInt(28)
+            }, 
+            {
+                "Name" : "Parts Not Available", 
+                "Value" : NumberInt(14)
+            }, 
+            {
+                "Name" : "Man Power", 
+                "Value" : NumberInt(308)
+            }, 
+            {
+                "Name" : "Failure Repairs", 
+                "Value" : NumberInt(252)
+            }, 
+            {
+                "Name" : "PM", 
+                "Value" : NumberInt(266)
+            }, 
+            {
+                "Name" : "Iron", 
+                "Value" : NumberInt(140)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(4)
+    }
+}
+{ 
+    "_id" : ObjectId("5c3ef03069a7b347d854d466"), 
+    "ID" : NumberInt(1), 
+    "EquipmentCode" : "HECH-KS", 
+    "AssetSerialNo" : "22", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6304273", 
+        "CreatedDateTime" : "Wed Jan 16 2019 19:07:52 GMT+0530 (India Standard Time)", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T08:02:29.600Z", 
+        "RIMEIndex" : NumberInt(1666), 
+        "AssignedParameters" : [
+            {
+                "Name" : "Demand", 
+                "Value" : NumberInt(336)
+            }, 
+            {
+                "Name" : "Parts available", 
+                "Value" : NumberInt(322)
+            }, 
+            {
+                "Name" : "Engine", 
+                "Value" : NumberInt(28)
+            }, 
+            {
+                "Name" : "Parts Not Available", 
+                "Value" : NumberInt(14)
+            }, 
+            {
+                "Name" : "Man Power", 
+                "Value" : NumberInt(308)
+            }, 
+            {
+                "Name" : "Failure Repairs", 
+                "Value" : NumberInt(252)
+            }, 
+            {
+                "Name" : "PM", 
+                "Value" : NumberInt(266)
+            }, 
+            {
+                "Name" : "Iron", 
+                "Value" : NumberInt(140)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(4)
+    }
+}
+{ 
+    "_id" : ObjectId("5c3f239be3d9c623d011e256"), 
+    "ID" : NumberInt(2), 
+    "EquipmentCode" : "MCAP-AA", 
+    "AssetSerialNo" : "66", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6304273", 
+        "CreatedDateTime" : "Wed Jan 16 2019 17:59:15 GMT+0530 (India Standard Time)", 
+        "LastUpdatedBy" : "abarke", 
+        "LastUpdatedDateTime" : "2019-01-21T07:53:57.589Z", 
+        "RIMEIndex" : NumberInt(1615), 
+        "AssignedParameters" : [
+            {
+                "Name" : "Needs 3rd party Tech", 
+                "Value" : NumberInt(255)
+            }, 
+            {
+                "Name" : "Welder Needed", 
+                "Value" : NumberInt(238)
+            }, 
+            {
+                "Name" : "Parts available", 
+                "Value" : NumberInt(391)
+            }, 
+            {
+                "Name" : "3rd party Tech (Resident)", 
+                "Value" : NumberInt(272)
+            }, 
+            {
+                "Name" : "Test-Pit", 
+                "Value" : NumberInt(119)
+            }, 
+            {
+                "Name" : "Run Up Required", 
+                "Value" : NumberInt(136)
+            }, 
+            {
+                "Name" : "Radiator Cleaning", 
+                "Value" : NumberInt(204)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c3f450de3d9c623d011e257"), 
+    "ID" : NumberInt(3), 
+    "EquipmentCode" : "MCEC-AA", 
+    "AssetSerialNo" : "12", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6304273", 
+        "CreatedDateTime" : "Wed Jan 16 2019 20:21:57 GMT+0530 (India Standard Time)", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:07:51.733Z", 
+        "RIMEIndex" : NumberInt(1377), 
+        "AssignedParameters" : [
+            {
+                "Name" : "Needs 3rd party Tech", 
+                "Value" : NumberInt(255)
+            }, 
+            {
+                "Name" : "Piping", 
+                "Value" : NumberInt(187)
+            }, 
+            {
+                "Name" : "Demand", 
+                "Value" : NumberInt(408)
+            }, 
+            {
+                "Name" : "Radiator Cleaning", 
+                "Value" : NumberInt(204)
+            }, 
+            {
+                "Name" : "QC Check Required", 
+                "Value" : NumberInt(153)
+            }, 
+            {
+                "Name" : "Iron", 
+                "Value" : NumberInt(170)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c4015d551a4463c4435b93f"), 
+    "ID" : NumberInt(4), 
+    "EquipmentCode" : "MCMU-AA", 
+    "AssetSerialNo" : "25", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6304273", 
+        "CreatedDateTime" : "Thu Jan 17 2019 11:12:45 GMT+0530 (India Standard Time)", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:08:34.259Z", 
+        "RIMEIndex" : NumberInt(1734), 
+        "AssignedParameters" : [
+            {
+                "Name" : "Demand", 
+                "Value" : NumberInt(408)
+            }, 
+            {
+                "Name" : "Parts available", 
+                "Value" : NumberInt(391)
+            }, 
+            {
+                "Name" : "CVI / DOT", 
+                "Value" : NumberInt(340)
+            }, 
+            {
+                "Name" : "Radiator Cleaning", 
+                "Value" : NumberInt(204)
+            }, 
+            {
+                "Name" : "Run Up Required", 
+                "Value" : NumberInt(136)
+            }, 
+            {
+                "Name" : "Needs 3rd party Tech", 
+                "Value" : NumberInt(255)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c414c0a730cbd000171fe1c"), 
+    "ID" : NumberInt(12), 
+    "EquipmentCode" : "HECH-KS", 
+    "AssetSerialNo" : "36", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6304273", 
+        "CreatedDateTime" : "2019-01-18T03:46:17.825Z", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:10:36.130Z", 
+        "RIMEIndex" : NumberInt(1054), 
+        "AssignedParameters" : [
+            {
+                "Name" : "CVI / DOT", 
+                "Value" : NumberInt(340)
+            }, 
+            {
+                "Name" : "PM", 
+                "Value" : NumberInt(323)
+            }, 
+            {
+                "Name" : "Parts available", 
+                "Value" : NumberInt(391)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c41a88cd925eb0001aa86b4"), 
+    "ID" : NumberInt(13), 
+    "EquipmentCode" : "MCEC-AA", 
+    "AssetSerialNo" : "67", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6304273", 
+        "CreatedDateTime" : "2019-01-18T10:21:00.147Z", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:07:58.165Z", 
+        "RIMEIndex" : NumberInt(697), 
+        "AssignedParameters" : [
+            {
+                "Name" : "3rd party Tech (Resident)", 
+                "Value" : NumberInt(272)
+            }, 
+            {
+                "Name" : "Iron", 
+                "Value" : NumberInt(170)
+            }, 
+            {
+                "Name" : "Needs 3rd party Tech", 
+                "Value" : NumberInt(255)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c41b4a0d925eb0001aa86b8"), 
+    "ID" : NumberInt(14), 
+    "EquipmentCode" : "MCEC-AA", 
+    "AssetSerialNo" : "0039A", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6304273", 
+        "CreatedDateTime" : "2019-01-18T11:12:32.192Z", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:08:03.545Z", 
+        "RIMEIndex" : NumberInt(1292), 
+        "AssignedParameters" : [
+            {
+                "Name" : "Man Power", 
+                "Value" : NumberInt(374)
+            }, 
+            {
+                "Name" : "Parts available", 
+                "Value" : NumberInt(391)
+            }, 
+            {
+                "Name" : "PM", 
+                "Value" : NumberInt(323)
+            }, 
+            {
+                "Name" : "Radiator Cleaning", 
+                "Value" : NumberInt(204)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c41bb4e708d9900016fbe83"), 
+    "ID" : NumberInt(15), 
+    "EquipmentCode" : "MCFU-AA", 
+    "AssetSerialNo" : "35", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6217939", 
+        "CreatedDateTime" : "2019-01-18T11:41:01.220Z", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:08:09.109Z", 
+        "RIMEIndex" : NumberInt(3237), 
+        "AssignedParameters" : [
+            {
+                "Name" : "CVI / DOT", 
+                "Value" : NumberInt(260)
+            }, 
+            {
+                "Name" : "3rd party Tech (Resident)", 
+                "Value" : NumberInt(208)
+            }, 
+            {
+                "Name" : "Piping", 
+                "Value" : NumberInt(143)
+            }, 
+            {
+                "Name" : "3rd party (Base Movement)", 
+                "Value" : NumberInt(169)
+            }, 
+            {
+                "Name" : "Failure Repairs", 
+                "Value" : NumberInt(234)
+            }, 
+            {
+                "Name" : "Parts available", 
+                "Value" : NumberInt(299)
+            }, 
+            {
+                "Name" : "Man Power", 
+                "Value" : NumberInt(286)
+            }, 
+            {
+                "Name" : "Shop Space", 
+                "Value" : NumberInt(273)
+            }, 
+            {
+                "Name" : "MB XXXX", 
+                "Value" : NumberInt(221)
+            }, 
+            {
+                "Name" : "Radiator Cleaning", 
+                "Value" : NumberInt(156)
+            }, 
+            {
+                "Name" : "Needs 3rd party Tech", 
+                "Value" : NumberInt(195)
+            }, 
+            {
+                "Name" : "Welder Needed", 
+                "Value" : NumberInt(182)
+            }, 
+            {
+                "Name" : "Demand", 
+                "Value" : NumberInt(312)
+            }, 
+            {
+                "Name" : "Radiator", 
+                "Value" : NumberInt(78)
+            }, 
+            {
+                "Name" : "Engine", 
+                "Value" : NumberInt(26)
+            }, 
+            {
+                "Name" : "Fluid End", 
+                "Value" : NumberInt(65)
+            }, 
+            {
+                "Name" : "QC Check Required", 
+                "Value" : NumberInt(117)
+            }, 
+            {
+                "Name" : "Parts Not Available", 
+                "Value" : NumberInt(13)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(5)
+    }
+}
+{ 
+    "_id" : ObjectId("5c456d468654f10001a98a31"), 
+    "ID" : NumberInt(16), 
+    "EquipmentCode" : "MCAP-AA", 
+    "AssetSerialNo" : "23", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "6208664", 
+        "CreatedDateTime" : "2019-01-21T06:57:09.913Z", 
+        "LastUpdatedBy" : "6208664", 
+        "LastUpdatedDateTime" : "2019-01-21T06:57:09.913Z", 
+        "RIMEIndex" : NumberInt(748), 
+        "AssignedParameters" : [
+            {
+                "Name" : "Demand", 
+                "Value" : NumberInt(408)
+            }, 
+            {
+                "Name" : "CVI / DOT", 
+                "Value" : NumberInt(340)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c456fe023ff4d0001936051"), 
+    "ID" : NumberInt(17), 
+    "EquipmentCode" : "MCFU-BA", 
+    "AssetSerialNo" : "097", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "mmishra10", 
+        "CreatedDateTime" : "2019-01-21T07:08:16.482Z", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:08:16.482Z", 
+        "RIMEIndex" : NumberInt(391), 
+        "AssignedParameters" : [
+            {
+                "Name" : "Parts available", 
+                "Value" : NumberInt(391)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c45705623ff4d0001936052"), 
+    "ID" : NumberInt(18), 
+    "EquipmentCode" : "HECH-KS", 
+    "AssetSerialNo" : "13", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "mmishra10", 
+        "CreatedDateTime" : "2019-01-21T07:10:14.045Z", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:10:14.045Z", 
+        "RIMEIndex" : NumberInt(391), 
+        "AssignedParameters" : [
+            {
+                "Name" : "Parts available", 
+                "Value" : NumberInt(391)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c45705d23ff4d0001936053"), 
+    "ID" : NumberInt(19), 
+    "EquipmentCode" : "HECH-KS", 
+    "AssetSerialNo" : "4", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "mmishra10", 
+        "CreatedDateTime" : "2019-01-21T07:10:21.226Z", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:10:21.226Z", 
+        "RIMEIndex" : NumberInt(323), 
+        "AssignedParameters" : [
+            {
+                "Name" : "PM", 
+                "Value" : NumberInt(323)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}
+{ 
+    "_id" : ObjectId("5c45706323ff4d0001936054"), 
+    "ID" : NumberInt(20), 
+    "EquipmentCode" : "HECH-KS", 
+    "AssetSerialNo" : "2", 
+    "RIMEDetails" : {
+        "IsActive" : true, 
+        "CreatedBy" : "mmishra10", 
+        "CreatedDateTime" : "2019-01-21T07:10:26.585Z", 
+        "LastUpdatedBy" : "mmishra10", 
+        "LastUpdatedDateTime" : "2019-01-21T07:10:26.585Z", 
+        "RIMEIndex" : NumberInt(323), 
+        "AssignedParameters" : [
+            {
+                "Name" : "PM", 
+                "Value" : NumberInt(323)
+            }
+        ], 
+        "RIMEIndicesLookUpID" : NumberInt(1)
+    }
+}

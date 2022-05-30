@@ -1,0 +1,34 @@
+{ 
+    "_id" : ObjectId("5c2c78590ae0cf78e4acc4c7"), 
+    "IsActive" : true, 
+    "CreatedBy" : "AVerma16", 
+    "CreatedDateTime" : "12-Feb-2018 11:30:34", 
+    "LastUpdatedBy" : "AVerma15", 
+    "LastUpdatedDateTime" : "13-Feb-2018 11:30:34", 
+    "ID" : NumberInt(1), 
+    "EquipmentCode" : "EQ002", 
+    "AssetSerialNo" : "002", 
+    "EquipmentTypeID" : NumberInt(2), 
+    "RIMEIndex" : NumberInt(507), 
+    "AssignedParameters" : [
+        "Demand", 
+        "Run Up Required"
+    ]
+}
+{ 
+    "_id" : ObjectId("5c2c78aa0ae0cf78e4acc4c8"), 
+    "IsActive" : false, 
+    "CreatedBy" : "AVerma16", 
+    "CreatedDateTime" : "12-Feb-2018 11:30:34", 
+    "LastUpdatedBy" : "AVerma16", 
+    "LastUpdatedDateTime" : "12-Feb-2018 11:30:34", 
+    "ID" : NumberInt(2), 
+    "EquipmentCode" : "EQ001", 
+    "AssetSerialNo" : "001", 
+    "EquipmentTypeID" : NumberInt(2), 
+    "RIMEIndex" : NumberInt(408), 
+    "AssignedParameters" : [
+        "Demand", 
+        "Run Up Required"
+    ]
+}

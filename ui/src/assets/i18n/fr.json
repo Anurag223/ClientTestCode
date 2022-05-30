@@ -1,0 +1,274 @@
+{
+  "HOME": {
+    "EAM": "Fr EAM",
+    "DASH": "Fr Dashboard",
+    "PLAN": "Fr Planning",
+    "SOURCING": "Fr Sourcing",
+    "ACTIVITY_MONITOR": "Fr Activity Monitor",
+    "ACTIVITYMONITOR": "Fr Activity Monitor",
+    "INVENTORY": "Fr Plan & Schedule",
+    "PERSONNEL": "Fr Scheduling",
+    "PLANNING_AND_SCHEDULING": "Fr Plan",
+    "TESTING": "Fr Test Area",
+    "WORKCENTER": "Fr Admin",
+    "REPORTS": "Fr Reporting",
+    "SORT_BY": "Fr Sort by :",
+    "FILTERS": "Fr Filters",
+    "SEARCH_FIELD_PLACEHOLDER": "Fr Search Job or Work Order",
+    "EDO_DETAILS": "Fr EDO Details",
+    "JOB_WELL_ATTRIBUTES": "Fr Job/Well Attributes",
+    "EQUIPMENT_ATTRIBUTES": "Fr Equipment Attributes",
+    "BUILD_AND_INSPECTION": "Fr Build & Inspection",
+    "ORDER_NUMBER": "Fr Order Number",
+    "SERVICE_PRODUCT": "Fr Service Product",
+    "FINISH_DATE": "Fr Finish Date",
+    "REQUESTING_LOCATION": "Fr Requesting Location",
+    "REQUIRED_DATE": "Fr Required Date",
+    "EDO_USER_STATUS": "Fr EDO User Status",
+    "FULLFILLMENT_LOCATION": "Fr Fullfillment Location",
+    "EDOCREATIONDATE": "Fr EDO Creation Date",
+    "PR_PO_NUMBER": "Fr PR/PO Number",
+    "FILTER": "Fr FILTER",
+    "PLANNING_SORT_OPTIONS": [
+      "Fr Job Number",
+      "Fr Rig Name",
+      "Fr Client",
+      "Fr Serial Number",
+      "Fr Equipment Type",
+      "Fr Order Priority",
+      "Fr Job Status",
+      "Fr Order Status",
+      "Fr Date",
+      "Fr Operation Location",
+      "Fr Job",
+      "Fr Order Type"
+    ]
+  },
+  "COMMON": {
+    "SEARCH": "Fr Search",
+    "CANCEL": "Fr CANCEL",
+    "RESET": "Fr Reset",
+    "SELECT": "Fr Select",
+    "ACTIVITY": "Fr Activity",
+    "DATE_UPDATED": "Fr Date Updated",
+    "TIMEZONE": "Fr TIMEZONE",
+    "RESULTS_FOR": "Fr RESULTS FOR",
+    "EXPORT": "Fr Export",
+    "UPDATE_NOW": "Fr Update Now",
+    "EXPAND_ALL": "Fr Expand All",
+    "COLLAPSE_ALL": "Fr Collapse All",
+    "EXPAND_ONE_LEVEL": "Fr Expand One Level",
+    "COLLAPSE_ONE_LEVEL": "Fr Collapse One Level",
+    "DASHBOARD_PAGE": "Fr This is the Dashboard page!",
+    "SAVE": "Fr SAVE"
+  },
+  "ACTIVITYSEARCH": {
+    "NEXT_PLANNED_SHIP_DATE": "Fr Next Planned Ship Date",
+    "RESET": "Fr Reset",
+    "LAST_UPDATED_DATE": "Fr Last Updated Date",
+    "TCO": "Fr TCO",
+    "PRODUCT_LINE": "Fr Product Line",
+    "PRODUCT_GROUP": "Fr Product Group",
+    "TOOL_NAME": "Fr Tool Name",
+    "OUT_OF_SPECS": "Fr Out Of Specs",
+    "CLIENT": "Fr Client",
+    "JOB": "Fr Job",
+    "TCO_STATUS": "Fr TCO Status",
+    "JOB_NAME": "Fr Job Name",
+    "WELL": "Fr Well",
+    "RIG": "Fr Rig",
+    "PRIORITY": "Fr Priority",
+    "FSM_DD": "Fr FSM DD",
+    "FSM_MWD": "Fr FSM MWD",
+    "SDM_CELL_NAME": "Fr SDM Cell Name",
+    "FROMDATE": "Fr From",
+    "TODATE": "Fr To"
+  },
+  "ACTIVITYGRID": {
+    "PLANNED_SHIP_DATE": "Fr Planned Ship Date",
+    "TLM_SHIP_DATE": "Fr TLM Ship Date",
+    "PRIORITY": "Fr Priority",
+    "TCO_NUMBER": "Fr TCO Number",
+    "TCO_LAST_UPDATED": "Fr TCO Last Updated",
+    "JOB_NUMBER": "Fr Job Number",
+    "CLENT": "Fr Client",
+    "WELL": "Fr Well",
+    "RIG": "Fr Rig",
+    "TOOL_NAME": "Fr Tool Name",
+    "EDO_TOOL_STATUS": "Fr EDO Tool Status",
+    "EDO_TOOL_ASSIGNED": "Fr EDO Tool Assigned",
+    "PRODUCT_LINE": "Fr Product Line",
+    "PRODUCT_GROUP": "Fr Product Group",
+    "HIGH_TEMP": "Fr High Temp",
+    "HIGH_PRESSURE": "Fr High Pressure",
+    "HIGH_DOGLEG": "Fr High Dogleg",
+    "CORROSIVE_ENV": "Fr Corrosive Environment",
+    "HIGH_SHOCK": "Fr High Shock",
+    "NEXT_SHIP_DATE": "Fr Next Ship Date",
+    "CONFIGURATION": "Fr Configuration",
+    "PCV": "Fr PCV",
+    "EQUIPMENT_AVL": "Fr Equipment Availability",
+    "TCO_STATTUS": "Fr TCO Status",
+    "TLM_SITE": "Fr TLM Site",
+    "TLM_ACT_SHIP_DATE": "Fr TLM Actual Ship Date",
+    "TCO_COMMENTS": "Fr TCO Comments",
+    "TCO_REPORTS": "Fr TCO Report",
+    "SHIPING_INSTRUCTIONS": "Fr Shipping Instructions",
+    "MAINTENANCE_OPRATIONS": "Fr Maintenance & Operations",
+    "PRODUCT_GROUP_STATUS": "Fr Product Group Status",
+    "PRODUCT_LINE_STATUS": "Fr Product Line Status",
+    "BUSINESS_SITE": "Fr Business Site",
+    "SHIPMENT_NUMBER": "Fr Shipment Number",
+    "MOVEMENT_TYPE": "Fr Movement Type",
+    "HISTORY": "Fr History",
+    "REDIRECTED_TO": "Fr Redirect To",
+    "REDIRECTED_TYPE": "Fr Request Type",
+    "CONFIGURATION_COMPLIACE": "Fr Configuration Compliance",
+    "MAX_BH_PRE": "Fr Max BH Pressure",
+    "REDIRECTED_FROM": "Fr Redirect From",
+    "TRO": "Fr TRO",
+    "VERSION": "Fr Version",
+    "MAX_BH_STATIC_TEMP": "Fr Max BH Static Temp",
+    "MAX_BH_CIRC_TEMP": "Fr Max BH Circ Temp",
+    "FSM_DD": "Fr FSM DD",
+    "FSM_MWD": "Fr FSM MWD",
+    "SDM_CELL_NAME": "Fr SDM Cell Name",
+    "FSM_DE": "Fr FSM DE",
+    "JOB_STATUS": "Fr Job Status",
+    "MANAGE_VIEWS": "Fr Manage Grid Views",
+    "EDO_COMMENTS": "Fr EDO Comments",
+    "EDO_PRIORITY": "Fr EDO Priority",
+    "PROGRESS_BAR": "Fr Loading results for Site {{completed}} of {{total}}.",
+    "TCO_PRE_SHIPPING_MANIFEST": "PreShipping Manifest"
+  },
+  "UPDATE": {
+    "UPDATE_120": "Fr Update every 120 min",
+    "UPDATE_60": "Fr Update every 60 min",
+    "UPDATE_30": "Fr Update every 30 min",
+    "UPDATE_15": "Fr Update every 15 min",
+    "NO_UPDATE": "Fr Do Not Update"
+  },
+  "CONTEXTHELP": {
+    "ICONLABEL": "Fr Help",
+    "CONTEXTHELPWIKILINK": "Fr View on FMP Wiki -",
+    "CONTEXTHELPVIDEOLINK": "Fr FMP Quick Help 365 Video channel",
+    "SEARCHCOMPONENT": {
+      "SAVEDSEARCH": {
+        "SEQUENCE": "1",
+        "HEADER": "Fr Saved Search",
+        "BODY": "Fr Saved Search Body Text"
+      },
+      "RESULTFOR": {
+        "SEQUENCE": "2",
+        "HEADER": "Fr Result for",
+        "BODY": "Fr Result for Body Text"
+      },
+      "EQUIPMENTSEARCHPANEL": {
+        "SEQUENCE": "3",
+        "HEADER": "Fr Equipment Search Panel",
+        "BODY": "Fr Equipment Search Panel Body Text"
+      }
+    },
+    "ACTIVITYMONITOR": {
+      "SEARCHPANEL": {
+        "SEARCHFUNCTIONALITY": {
+          "HEADER": "Fr Search Functionality",
+          "BODY": "<div><ul><li>From: The starting date (Qtrac Last Updated By Date, visible on Status Board & Shipping Monitor) for your search</li><br><li>To: The end date (Qtrac Last Updated By Date) for your search</li><br><li>TCO: A multi-select drop-down to choose specific TCO#s</li><br><li>Job: A multi-select drop-down to choose specific Job#s</li></ul></div>"
+        },
+        "SAVESEARCH": {
+          "HEADER": "Fr Saved Search",
+          "BODY": "Fr <br><div><ul><li>Instead of repeatedly entering the above criteria, frequently applied searches can be saved under this section. Enter a name to save your custom search in the text field provided.</li><br><li>Reset: clears the search criteria fields</li><br><li>Search: on clicking upon this button, the applied search criteria takes into effect and displays the respective result on the grid.</li></ul></div>"
+        }
+      },
+      "LAYOUTPANEL": {
+        "LAYOUTDROPDOWN": {
+          "HEADER": "Fr Layout Drop-down",
+          "BODY": "Fr <br><div><ul><li>Layout Chooser: Change your current layout from the drop-down list by clicking here and selecting the layout name.</li><br><li>Layout Panel: To alter the current layout or to create a new one click on Manage Grid Views.</li></ul></div>"
+        },
+        "COLUMNOPTIONS": {
+          "HEADER": "Fr Column Options",
+          "BODY": "Fr <br><div><ul><li>Add New Link: Opens the text box in 4b to name the new template created on the currently selected one.</li><br><li>Text Box: type in the name of your new view to be created.</li><br><li>The gripper icon: is used to rearrange the position a column on the data grid</li><br><li>The lock icon: can be toggled to fix or unfix (unlock) the position of a column on the grid. Locked columns move to the left of the grid by default.</li><br><li>Delete Column Button: The red ‘X’ icon removes the corresponding column from the view.</li><br><li>Add Column Button: A text box appears upon clicking here where you can either enter a column name, or select one from the menu that appears</li></ul></div>"
+        }
+      },
+      "COLUMNOPTIONSDATA": {
+        "HEADER": "fr Column Option",
+        "BODY": "fr <div><ul><li class='contextTooltipBullets'>Add New Link: Opens the text box to name the new template created on the currently selected one.</li><li class='contextTooltipBullets'>Text Box: Type in the name of your new view to be created</li><li class='contextToolTipIcon contextualGripperDiv'> <span class='dls-icon contextToolTipGripperOne dls-iconDrag' style='margin:4px;'></span><span class='dls-icon contextToolTipGripperTwo dls-iconDrag' style='margin:4px;'></span><span class='contextToolTipSpan'>The gripper icon: It is used to rearrange the position of a column on the data grid.</span></li><li class='contextToolTipIcon'> <span class='dls-icon contextToolTipSpan dls-iconUnlocked' style='margin:4px;'></span><span class='contextToolTipSpan'>The lock icon: It can be toggled to fix or unfix (unlock) the position of a column on the grid. Locked columns move to the left of the grid by default.</span></li><li class='contextToolTipIcon'> <span class='dls-icon contextToolTipSpan dls-iconClose' style='margin:4px;'></span><span class='contextToolTipSpan'>Delete Column Button: The red ‘X’ icon removes the corresponding column from the view.</span></li><li class='contextToolTipIcon'> <span class='dls-icon contextToolTipSpan dls-iconPlus' style='margin:4px;'></span> <span class='contextToolTipSpan'>Add Column Button: A text box appears upon clicking here where you can either enter a column name or select one from the menu that appears.</span></li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Layout+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "GROUPING": {
+        "HEADER": "fr Grouping",
+        "BODY": "fr <div><ul><li class='contextTooltipBullets'>To group data based on a particular column in the grid, drag the column name and place it on the grouping header which is highlighted by the tooltip.</li><li class='contextTooltipBullets'>Once the column name appears inside a white elliptical box with a blue outline here, the grid data is grouped on its basis.</li><li class='contextTooltipBullets'>To remove any grouping, click on the X icon in the elliptical box.</li><li class='contextTooltipBullets'>To rearrange the grouping hierarchy, drag and place the elliptical box of the required column.</li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Grouping ",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "SORTING": {
+        "HEADER": "fr Sorting",
+        "BODY": "fr <div><ul><li class='contextTooltipBullets'>Grid Data can be sorted at two levels:</li><ul><li>a. <span style='text-decoration: underline;'>Column Level:<span> applies to columns that are not grouped. Click on Select the column name to toggle the type of sort or to remove it. If sorted, one of the following icons will appear next to the column name:</li><li class='contextToolTipIcon'><span class='dls-icon contextToolTipSpan dls-icon dls-iconUpward'></span><span class='contextToolTipSpan'>: Ascending Order Ascending Order</span></li></span></li><li class='contextToolTipIcon'><span class='dls-icon contextToolTipSpan dls-icon dls-iconDownward'></span><span class='contextToolTipSpan'>: Descending Order</span></li></span></li><li class='contextToolTipIcon'><span class='dls-icon contextToolTipSpan dls-iconUpward'></span><span class='contextToolTipSpan'> or <span class='dls-icon contextToolTipSpan dls-iconDownward'></span><span class='contextToolTipSpan'>: where n is a number representing the order of sorting in case sorting is applied on multiple columns</span></li></span></li>      <li>b. <span style='text-decoration: underline;'>Group Level:<span> By default, ascending order is applied to grouped columns. This can be toggled but NOT REMOVED by clicking on the elliptically boxed column name.</span></li></ul></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Sorting",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "FILTERING": {
+        "HEADER": "fr Filtering",
+        "BODY": "fr <div><ul><li class='contextTooltipBullets'>Type in the white space or select it to trigger filtering options.</li><li class='contextTooltipBullets'>Depending on the column, the type of filter can be one of the following:</li><ul><li>a. Multi Select: indicated by a blank space with no icon</li><li>b. Date filter: indicated by a calendar icon<span class='dls-icon contextToolTipSpan dls-icon dls-iconCalendar'></span><span class='contextToolTipSpan'></span></li><li>c. Boolean Filter: indicated by an (All) option with icon<span class='dls-icon contextToolTipSpan dls-icon dls-iconArrowDown2'></span><span class='contextToolTipSpan'></span></li><li>d. Default filter: indicated by the funnel icon<span class='dls-icon contextToolTipSpan dls-icon dls-icon dls-iconFilter1'></span><span class='contextToolTipSpan'></span></li></ul></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Filter+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "TEMPORARYCOLREARRANGEMENT": {
+        "HEADER": "fr Temporary Column Rearrangement",
+        "BODY": "fr <div><ul><li class='contextTooltipBullets'>To further customize your current view, column positions can be changed without having to open the Column Options Panel.</li><li class='contextTooltipBullets'>This can be achieved by clicking on Selecting the column you want to reposition and dragging it to the place of interest.</li><li class='contextTooltipBullets'>By default, this column arrangement will not be saved as part of the current layout configuration. To save the new column order layout as part of the current view, open the column options panel and select the save button.</ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Layout+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "EDITABLEFIELDS": {
+        "HEADER": "fr Editable Fields",
+        "BODY": "fr <div><ul><li class='contextTooltipBullets'>Activity Monitor consists of 9 editable fields* in total.</li><li class='contextTooltipBullets'>Eight correspond to Qtrac data points and one is a newly introduced quantity called EDO Priority.</li><li class='contextTooltipBullets'>These editable fields* can be categorized at two levels:</li><ul><li>a. TCO (EDP) Level: Planned Ship Date, TLM Ship Date, Priority, TCO Comments, Shipping Instructions and Maintenance & Operations.</li><li>b. TCO (EDP) Level: Next Ship Date, TLM Actual Ship Date, EDO Priority</li></ul><li class='contextTooltipBullets'>*  Out of these fields, the ones available for editing for your assigned role will be displayed in a white background on the grid. </li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/User+Permissions ",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "USERPREFERENCES": {
+        "TIMEZONE": {
+          "HEADER": "Fr TimeZone-Local",
+          "BODY": "Fr Displays your current time zone in which you will see data on the grid."
+        },
+        "UNITSYSTEM": {
+          "HEADER": "Fr Unit System Selection",
+          "BODY": "Fr Units of measurement can be changed upon clicking on this drop down and choosing your preferred option."
+        }
+      },
+      "ERROR": {
+        "TCOERROR": " FR while updating TCO #",
+        "RETRYERROR": "FR Retry count excceeded for GUID Api",
+        "MATEOAPINOTFOUND": "FR Mateo Api Response - Not Found"
+      }
+    },
+    "PLANNING_SCHEDULING": {
+      "FMP_WIKI": {
+        "HEADER": "FMP Wiki",
+        "BODY": "<div class='content-center'><ol type='a'><li class='contextTooltipBullets' style='list-type:none'>a. <a href='https://wiki.slb.com/pages/viewpage.action?pageId=124128177' target='_blank'> FMP Wiki</a></li> <li class='contextTooltipBullets' style='list-type:none'>b. <a href='https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb' target='_blank'> FMP Quick Help O365 Video channel</a></li></ol></div>"
+      }
+    }
+  },
+  "SHARED": {
+    "COLUMNOPTIONS": {
+      "OPTIONHEADER": "Fr Column Options",
+      "SAVEDLAYOUTS": "Fr Saved Column Layouts",
+      "COLUMNACTIONS": "Fr Add or remove columns",
+      "MESSAGE": "Fr To change the column order, drag and drop a field. To lock a column and move to front of list,click the lock icon.",
+      "COLUMNS": "Fr Columns",
+      "COLUMNLOCK": "Fr Lock",
+      "COLUMNADD": "Fr Add a Column",
+      "COLUMNNEW": "Fr Add New"
+    }
+  },
+  "SCHEDULER": {
+    "WORK_STATIONS": "Fr Work Stations"
+  },
+  "EDOTOLLDIALOG": {
+    "HEADING": "Remove Tool Assignment",
+    "INFO_TEXT_1": "WARNING, YOU ARE ABOUT TO REMOVE THE ASSIGNED TOOL(S) FOR THE SELECTED EDO(S)",
+    "INFO_TEXT_2": "Please confimr the REMOVAL of the assigned tools:",
+    "REMOVE_ASSINGED_BTN": "Remove Assigned Tools",
+    "DONOT_REMOVE_TOOLS_BTN": "Do Not Remove Tools"
+  }
+}

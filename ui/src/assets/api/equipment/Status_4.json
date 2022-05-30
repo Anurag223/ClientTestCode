@@ -1,0 +1,75 @@
+[
+  {
+    "Segment": "GLOB",
+    "Type": "Mvt_Stat",
+    "Code": "C",
+    "Description": "Clarity InTransit",
+    "Sort_Order": 4,
+    "UoM_Type": "NULL",
+    "Last_Modified": "2009-05-09 10:32:30.887",
+    "Last_Modified_By": "System",
+    "Creation_Date": "2007-12-15 07:40:53.183",
+    "Created_By": "System"
+  },
+  {
+    "Segment": "GLOB",
+    "Type": "Mvt_Stat",
+    "Code": "H",
+    "Description": "On Hire",
+    "Sort_Order": 6,
+    "UoM_Type": "NULL",
+    "Last_Modified": "2016-06-05 12:11:08.193",
+    "Last_Modified_By": "System",
+    "Creation_Date": "2016-06-05 12:11:08.193",
+    "Created_By": "System"
+  },
+  {
+    "Segment": "GLOB",
+    "Type": "Mvt_Stat",
+    "Code": "I",
+    "Description": "InTransit",
+    "Sort_Order": 3,
+    "UoM_Type": "",
+    "Last_Modified": "2009-05-09 10:32:30.887",
+    "Last_Modified_By": "System",
+    "Creation_Date": "NULL",
+    "Created_By": "NULL"
+  },
+  {
+    "Segment": "GLOB",
+    "Type": "Mvt_Stat",
+    "Code": "L",
+    "Description": "On Loan",
+    "Sort_Order": 2,
+    "UoM_Type": "NULL",
+    "Last_Modified": "2009-05-09 10:32:30.887",
+    "Last_Modified_By": "System",
+    "Creation_Date": "NULL",
+    "Created_By": "NULL"
+  },
+  {
+    "Segment": "GLOB",
+    "Type": "Mvt_Stat",
+    "Code": "P",
+    "Description": "Onsite-Proforma",
+    "Sort_Order": 5,
+    "UoM_Type": "NULL",
+    "Last_Modified": "2011-09-30 06:54:56.993",
+    "Last_Modified_By": "System",
+    "Creation_Date": "2011-09-30 06:54:56.993",
+    "Created_By": "System"
+  },
+  {
+    "Segment": "GLOB",
+    "Type": "Mvt_Stat",
+    "Code": "S",
+    "Description": "On Site",
+    "Sort_Order": 1,
+    "UoM_Type": "NULL",
+    "Last_Modified": "2009-05-09 10:32:30.887",
+    "Last_Modified_By": "System",
+    "Creation_Date": "NULL",
+    "Created_By": "NULL"
+  }
+
+]

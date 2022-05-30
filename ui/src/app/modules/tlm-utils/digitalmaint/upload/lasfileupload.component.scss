@@ -1,0 +1,21 @@
+@import 'src/assets/style/variable';
+@import 'src/assets/style/mixin';
+@import 'src/assets/style/variable.scss';
+@import '../../variables.scss';
+.upload{
+    font-weight:bold;
+    color:#28a745;
+    margin-left: 15px;
+    line-height: 36px;
+}
+.upload-button {
+    width: 140px;
+    height: 26px;
+    background: $secondary-action-blue;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+ }

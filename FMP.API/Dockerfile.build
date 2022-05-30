@@ -1,0 +1,8 @@
+﻿FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-bionic AS base
+COPY FMP.API/certs/CA1.crt FMP.API/certs/CA2.crt FMP.API/certs/Root.crt FMP.API/certs/a2r_utils_prod.crt FMP.API/certs/a2r_utils_qa.crt /usr/local/share/ca-certificates/
+RUN cd /usr/local/share/ca-certificates && update-ca-certificates
+WORKDIR /app
+EXPOSE 80
+# Copy files from the artifact staging folder on agent
+COPY FMP.API/out .
+ENTRYPOINT ["dotnet", "FMP.API.dll"]

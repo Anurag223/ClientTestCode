@@ -1,0 +1,106 @@
+<div class="entitlementContainerBgColor">
+  <div class="entitlementContainer">
+    <h4 class="userRolesHeading">User Roles</h4>
+    <div class="entitlementDropDownDiv">
+      <label class="labelStyle steDropDown">Select Category : </label>
+      <kendo-dropdownlist
+        class="sitedropdown"
+        [data]="viewModel.categoryField"
+        [(ngModel)]="viewModel.selectedCategory"
+        (ngModelChange)="onCategoryChange()"
+      ></kendo-dropdownlist>
+    </div>
+    <div class="lastUpdatedDiv">
+      <span
+        >Last updated Date:
+        {{
+          lastUpdatedDateTime != 'Invalid Date'
+            ? (lastUpdatedDateTime | date: 'dd-MMM-yyyy
+      HH:mm')
+            : ''
+        }}
+      </span>
+      /
+      <span>Last updated By: {{ lastUpdatedBy }}</span>
+    </div>
+    <div>
+      <div class="roleAdminClaimTable">
+        <div class="roleHeadingRow row">
+          <div class="roleAdminRowHeading column vertical-align">Roles</div>
+          <div
+            *ngFor="let roleItem of viewModel.roleAdminData"
+            class="column vertical-align"
+          >
+            {{ roleItem.name }}
+          </div>
+        </div>
+        <div class="categoryHeadingRow row">
+          <div class="roleAdminRowHeading selectedCategoryHeading column">
+            {{ viewModel.selectedCategory }} - Edit
+          </div>
+          <div
+            *ngFor="
+              let roleItem of viewModel.roleAdminData;
+              let columnNumber = index
+            "
+            class="roldAdminCheckboxes column"
+          >
+            <label class="fmp-checkbox roleAdminCheckboxes">
+              <input
+                type="checkbox"
+                class="k-checkbox"
+                (click)="ModuleCheckBoxClicked($event, columnNumber)"
+                [checked]="ModuleChecked(roleItem)"
+              />
+              <span class="fmp-icons checkbox-icon"></span>
+            </label>
+          </div>
+        </div>
+        <div
+          *ngFor="
+            let claimItem of viewModel.claimCategoryData;
+            let rowNumber = index
+          "
+          class="claimsRow row"
+        >
+          <div class="roleAdminRowHeading column">
+            {{ claimItem.description }}
+          </div>
+          <div
+            *ngFor="
+              let roleItem of viewModel.roleAdminData;
+              let columnNumber = index
+            "
+            class="roldAdminCheckboxes column"
+          >
+            <label class="fmp-checkbox roleAdminCheckboxes">
+              <input
+                type="checkbox"
+                class="k-checkbox"
+                (click)="claimsCheckBoxClicked($event, rowNumber, columnNumber)"
+                [checked]="claimsChecked(claimItem, roleItem)"
+              />
+              <span class="fmp-icons checkbox-icon "></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="roleAdminBtnDiv">
+      <button
+        class="fmp-button fmp-button-tertiary roleAdminButton"
+        (click)="cancelBtnClicked()"
+        [class.disabled]="btnDisableFlag"
+      >
+        Cancel
+      </button>
+      <button
+        class="fmp-button fmp-button-primary roleAdminButton"
+        (click)="saveBtnClicked()"
+        [class.disabled]="btnDisableFlag"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+</div>

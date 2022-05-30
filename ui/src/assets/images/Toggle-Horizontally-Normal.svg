@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Toggle-Horizontally-Normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Toggle-Horizontally-Normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1.25,1.25 L1.25,9.375 L18.75,9.375 L18.75,1.25 L1.25,1.25 Z M1.25,10.625 L1.25,18.75 L18.75,18.75 L18.75,10.625 L1.25,10.625 Z M8.8817842e-16,-8.8817842e-16 L20,-8.8817842e-16 L20,20 L8.8817842e-16,20 L8.8817842e-16,-8.8817842e-16 Z" id="Horizontal-Split" fill="#669BC6" fill-rule="nonzero"></path>
+    </g>
+</svg>

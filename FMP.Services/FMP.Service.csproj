@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+   <DebugType>Full</DebugType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<ProjectGuid>{af3d4c7f-8b7c-4310-8bc4-e7ae1939578f}</ProjectGuid>
+	<LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMP.Common\FMP.Common.csproj" />
+    <ProjectReference Include="..\FMP.Repository\FMP.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Deedle" Version="2.1.0" />
+    <PackageReference Include="IdentityModel" Version="4.1.1" />
+    <PackageReference Include="mongocsharpdriver" Version="2.10.0" />
+    <PackageReference Include="morelinq" Version="3.3.1" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="2.5.0" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+  </ItemGroup>
+
+</Project>

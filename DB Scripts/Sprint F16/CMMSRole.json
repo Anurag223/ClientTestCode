@@ -1,0 +1,192 @@
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821938"), 
+    "ID" : NumberInt(1), 
+    "Name" : "ADMINISTRATOR", 
+    "Description" : "ADMINISTRATOR"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821939"), 
+    "ID" : NumberInt(2), 
+    "Name" : "ASSET COORDINATOR", 
+    "Description" : "ASSET COORDINATOR"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f4482193a"), 
+    "ID" : NumberInt(3), 
+    "Name" : "BAAT", 
+    "Description" : "BAAT"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f4482193b"), 
+    "ID" : NumberInt(4), 
+    "Name" : "CELL MANAGER", 
+    "Description" : "CELL MANAGER"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f4482193c"), 
+    "ID" : NumberInt(5), 
+    "Name" : "DESING ENGINEER", 
+    "Description" : "DRILLCO USER"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f4482193d"), 
+    "ID" : NumberInt(6), 
+    "Name" : "DRILLCO USER", 
+    "Description" : "DRILLCO USER"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f4482193e"), 
+    "ID" : NumberInt(7), 
+    "Name" : "EXTREME CC", 
+    "Description" : "EXTREME CC"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f4482193f"), 
+    "ID" : NumberInt(8), 
+    "Name" : "FIELD ENGINEER", 
+    "Description" : "FIELD ENGINEER"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821940"), 
+    "ID" : NumberInt(9), 
+    "Name" : "FSM", 
+    "Description" : "FSM"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821941"), 
+    "ID" : NumberInt(10), 
+    "Name" : "GUEST", 
+    "Description" : "GUEST"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821942"), 
+    "ID" : NumberInt(11), 
+    "Name" : "HEMISPHERE OPRM MANAGER", 
+    "Description" : "HEMISPHERE OPRM MANAGER"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821943"), 
+    "ID" : NumberInt(12), 
+    "Name" : "HQ", 
+    "Description" : "HQ"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821944"), 
+    "ID" : NumberInt(13), 
+    "Name" : "LEAD TECH", 
+    "Description" : "LEAD TECH"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821945"), 
+    "ID" : NumberInt(14), 
+    "Name" : "LOCAL ADMINISTRATOR", 
+    "Description" : "LOCAL ADMINISTRATOR"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821946"), 
+    "ID" : NumberInt(15), 
+    "Name" : "LOGISTICS CLERK", 
+    "Description" : "LOGISTICS CLERK"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821947"), 
+    "ID" : NumberInt(16), 
+    "Name" : "LSC", 
+    "Description" : "LSC"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821948"), 
+    "ID" : NumberInt(17), 
+    "Name" : "OPRM", 
+    "Description" : "OPRM"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f44821949"), 
+    "ID" : NumberInt(18), 
+    "Name" : "OSC", 
+    "Description" : "OSC"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f4482194a"), 
+    "ID" : NumberInt(19), 
+    "Name" : "OSCMANAGER", 
+    "Description" : "OSCMANAGER"
+}
+{ 
+    "_id" : ObjectId("5c051a31f5ff8d2f4482194b"), 
+    "ID" : NumberInt(20), 
+    "Name" : "PATHFINDER PROXY", 
+    "Description" : "PATHFINDER PROXY"
+}
+{ 
+    "_id" : ObjectId("5c08ec54046fa9a518762c6c"), 
+    "ID" : NumberInt(21), 
+    "Name" : "PC CUSTOMER SERVICE", 
+    "Description" : "PC CUSTOMER SERVICE"
+}
+{ 
+    "_id" : ObjectId("5c08ec69046fa9a518762c6d"), 
+    "ID" : NumberInt(22), 
+    "Name" : "PRODUCT CENTER MANAGER", 
+    "Description" : "PRODUCT CENTER MANAGER"
+}
+{ 
+    "_id" : ObjectId("5c08ec81046fa9a518762c6e"), 
+    "ID" : NumberInt(23), 
+    "Name" : "QA/QC SUPERVISOR", 
+    "Description" : "QA/QC SUPERVISOR"
+}
+{ 
+    "_id" : ObjectId("5c08ec93046fa9a518762c6f"), 
+    "ID" : NumberInt(24), 
+    "Name" : "QUALITY COMPLIANCE MANAGER", 
+    "Description" : "QUALITY COMPLIANCE MANAGER"
+}
+{ 
+    "_id" : ObjectId("5c08eca8046fa9a518762c70"), 
+    "ID" : NumberInt(25), 
+    "Name" : "R&M SUPERVISOR", 
+    "Description" : "R&M SUPERVISOR"
+}
+{ 
+    "_id" : ObjectId("5c08ecb8046fa9a518762c71"), 
+    "ID" : NumberInt(26), 
+    "Name" : "RENTAL COORDINATOR", 
+    "Description" : "RENTAL COORDINATOR"
+}
+{ 
+    "_id" : ObjectId("5c08ecc9046fa9a518762c72"), 
+    "ID" : NumberInt(27), 
+    "Name" : "RSO", 
+    "Description" : "RSO"
+}
+{ 
+    "_id" : ObjectId("5c08ecd9046fa9a518762c73"), 
+    "ID" : NumberInt(28), 
+    "Name" : "SALES", 
+    "Description" : "SALES"
+}
+{ 
+    "_id" : ObjectId("5c08eced046fa9a518762c74"), 
+    "ID" : NumberInt(29), 
+    "Name" : "SERVICE DELIVERY MANAGER", 
+    "Description" : "SERVICE DELIVERY MANAGER"
+}
+{ 
+    "_id" : ObjectId("5c08ed01046fa9a518762c75"), 
+    "ID" : NumberInt(30), 
+    "Name" : "TECHNICIAN", 
+    "Description" : "TECHNICIAN"
+}
+{ 
+    "_id" : ObjectId("5c08ed11046fa9a518762c76"), 
+    "ID" : NumberInt(31), 
+    "Name" : "TECHNICIAN TRAINEE", 
+    "Description" : "TECHNICIAN TRAINEE"
+}
+{ 
+    "_id" : ObjectId("5c08ed28046fa9a518762c77"), 
+    "ID" : NumberInt(32), 
+    "Name" : "TOOL TRAFFIC CONTROLLER", 
+    "Description" : "TOOL TRAFFIC CONTROLLER"
+}

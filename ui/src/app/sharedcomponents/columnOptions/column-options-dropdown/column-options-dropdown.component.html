@@ -1,0 +1,51 @@
+<kendo-popup [anchor]="publicViewsPopUAnchor" [margin]="margin" *ngIf="isPublicViewOpen">
+  <div class="column-options-public-views-container"
+    *ngIf="viewModel.PublicLayoutsInContext && viewModel.PublicLayoutsInContext.length > 0">
+    <div class="column-options-public-views-item"
+      *ngFor="let layout of viewModel.PublicLayoutsInContext;trackBy: trackPublicLayout">
+      <div class="public-views-label" title="{{layout.userID}}">{{layout.layoutName}}</div>
+      <div class="public-views-icon">
+        <span class="dls-icon dls-iconStar" (click)="onFavoriteClick($event, layout, true)"></span>
+      </div>
+    </div>
+  </div>
+  <div class="column-options-public-views-container"
+    *ngIf="!viewModel.PublicLayoutsInContext || viewModel.PublicLayoutsInContext.length === 0">
+    <div class="column-options-public-views-noitems">No Public Views</div>
+  </div>
+</kendo-popup>
+<span #publicViewsPopUAnchor>
+  <kendo-dropdownlist contexthelp="column-options-dropdown" class="column-options-dropdown"
+    [data]="viewModel.LayoutsInContext" [textField]="'layoutName'" [valueField]="'layoutID'"
+    [itemDisabled]="itemDisabled" [(ngModel)]="viewModel.selectedLayout" (ngModelChange)="onLayoutChange($event)"
+    id="columnOptionDropdown" #columpOptionsDropdown (open)="OpenHandler($event)" (close)="CloseHandler($event)">
+    <ng-template kendoDropDownListHeaderTemplate *ngIf="enableManageViews || enablePublicViews">
+      <div class="column-options-dropdown-header" *ngIf="enableManageViews">
+        <div class="manage-views" (click)="openColumOptionsPanel($event)">
+          <div class="manage-views-label">{{'ACTIVITYGRID.MANAGE_VIEWS' | translate}}</div>
+          <div class="manage-views-icon"> <span class="dls-icon dls-iconPlus"></span> </div>
+        </div>
+        <div class="public-views" (click)="togglePublicLayout(!isPublicViewOpen)" *ngIf="enablePublicViews">
+          <div class="public-views-label">Public Views</div>
+          <div class="public-views-icon"> <span class="dls-icon dls-iconArrowRight"></span> </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template kendoDropDownListItemTemplate let-dataItem>
+      <div *ngIf="dataItem.isSeperator" class="column-options-seperator"></div>
+      <div *ngIf="!dataItem.isDefault && !dataItem.isSeperator" class="column-options-dropdown-item">
+        <div class="column-options-dropdown-item-custom">
+          {{ dataItem.layoutName }}
+          <span *ngIf="dataItem.layoutType &&dataItem.layoutType.toUpperCase() === 'PUBLIC'"
+            class="dls-icon dls-iconStarSolid" title="{{dataItem.userID}}"
+            [ngClass]="{'favorite-icon':dataItem.userID !== viewModel.user.ldapAlias, 'favorite-icon-disabled': dataItem.userID === viewModel.user.ldapAlias}"
+            (click)="onFavoriteClick($event, dataItem, false)"></span>
+        </div>
+      </div>
+      <div *ngIf="dataItem.isDefault && !dataItem.isSeperator" class="column-options-dropdown-item-default">
+        {{ dataItem.layoutName }}
+      </div>
+    </ng-template>
+  </kendo-dropdownlist>
+</span>
+<!-- <button (click)="columpOptionsDropdown.toggle(true)">Open</button> -->

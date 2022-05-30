@@ -1,0 +1,12 @@
+
+
+<input type="file" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;" multiple>
+<button type="button" class="fmp-button fmp-button-primary upload-button" (click)="file.click()">Upload LAS File</button>
+
+<label class="upload" *ngIf="progress > 0">
+    uploading...
+</label>
+<label class="upload" *ngIf="message">
+    {{message}}
+</label>
+

@@ -1,0 +1,32 @@
+@import 'src/assets/style/variable';
+@import 'src/assets/style/mixin';
+@import 'src/assets/style/variable.scss';
+@import 'src/app/modules/tlm-utils/variables.scss';
+
+
+#updateschedulerjobContainer {
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: auto;
+    vertical-align: middle;
+        width: 100%;
+        height: 100%;
+        text-align: right;
+        padding: 20px;
+}
+
+.action-button {
+    width: 80px;
+    background: $light-blue;
+    height: 28px;
+    border: 1px solid #1683FB;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-self: center;
+}

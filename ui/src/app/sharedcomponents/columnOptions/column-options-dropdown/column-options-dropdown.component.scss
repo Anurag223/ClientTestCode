@@ -1,0 +1,162 @@
+@import "src/assets/style/variable";
+@import "src/assets/style/mixin";
+.column-options-dropdown {
+    width: 192px;
+    font-family: $robotoregular;
+    flex: auto;
+    flex-direction: row;
+    ::ng-deep {
+        .k-state-hover {
+            background-color: transparent;
+        }
+        .k-dropdown-wrap {
+            :hover {
+                background: $secondary-action-blue;
+            }
+            .k-input {
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                display: inline-block;
+                background: transparent;
+            }
+            border-radius: 0px;
+            border: 0px;
+            background: $secondary-action-blue;
+            color: $white;
+            text-transform: uppercase;
+            max-height: 28px;
+            .k-icon {
+                color: $white;
+            }
+        }
+    }
+}
+
+%headercontent {
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+%headerlabel {
+    width: 100%;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.column-options-dropdown-header {
+    cursor: pointer;
+    font-family: $robotobold;
+    border-bottom: 1px solid $grey06;
+    .manage-views {
+        height: 32px;
+        @extend %headercontent;
+        margin: -9px 0 4px 0;
+        background: $tan-required;
+        .manage-views-label {
+            @extend %headerlabel;
+            font-family: $robotobold;
+        }
+        .manage-views-icon {
+            float: right;
+            padding-right: 8px;
+            .dls-icon {
+                font-size: 12px;
+                color: $secondary-action-blue;
+            }
+        }
+    }
+    .public-views {
+        @extend %headercontent;
+        margin: 4px 0 4px 0;
+        .public-views-label {
+            @extend %headerlabel;
+            font-family: $robotobold;
+        }
+        .public-views-icon {
+            float: right;
+            padding-right: 8px;
+            .dls-icon {
+                color: $grey01;
+            }
+        }
+    }
+    .public-views:hover {
+        background: $grey07;
+    }
+}
+
+.column-options-seperator {
+    width: 100%;
+    border-bottom: 1.5px solid $grey05;
+}
+
+.column-options-dropdown-item {
+    display: block;
+    width: 100%;
+    .column-options-dropdown-item-default {
+        display: block;
+        width: 100%;
+        margin-bottom: 4px
+    }
+    .column-options-dropdown-item-custom {
+        padding-top: 2px;
+        width: 100%;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        .favorite-icon {
+            font-size: 12px;
+            float: right;
+            color: $amber;
+        }
+        .favorite-icon-disabled {
+            font-size: 12px;
+            float: right;
+            color: $grey06;
+            pointer-events: none;
+        }
+    }
+}
+
+.column-options-public-views-container {
+    max-height: 231px;
+    width: 192px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .column-options-public-views-item {
+        @extend %headercontent;
+        height: 28px;
+        .public-views-label {
+            @extend %headerlabel;
+            font-family: $robotoregular;
+        }
+        .public-views-icon {
+            float: right;
+            padding-right: 8px;
+            .dls-icon {
+                color: $grey03;
+            }
+        }
+    }
+    .column-options-public-views-item:hover {
+        background: $grey07
+    }
+    .column-options-public-views-noitems {
+        padding: 10px;
+        text-align: center;
+        font-family: $robotobold;
+        font-size: 16px;
+        color: $grey05;
+    }
+}
+
+.column-options-public-views-hidden {
+    display: none;
+}

@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+
+  mongo:
+    image: "mongo:4-xenial"
+    container_name: tlm-utils.api.mongo
+    hostname: tlm-utils.api.mongo
+    networks:
+      - tlm.fed.net
+    ports:
+      - "27032:27017"  
+    volumes:
+      - tlm-utils.api.mongo.data:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGOCONNECTION__PASSWORD}
+      - MONGO_INITDB_DATABASE=admin  
+
+volumes:      
+    tlm-utils.api.mongo.data:
+      driver: local
+
+networks:
+  tlm.fed.net:
+    external:
+      name: tlm.fed.net
+
+

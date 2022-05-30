@@ -1,0 +1,51 @@
+[
+  {
+    "Segment": "WL",
+    "Type": "Activity_Status",
+    "Code": "A",
+    "Description": "Available",
+    "Sort_Order": 1,
+    "UoM_Type": "NULL",
+    "Last_Modified": "2009-08-24 09:22:40.517",
+    "Last_Modified_By": "System",
+    "Creation_Date": "2009-08-24 09:22:40.517",
+    "Created_By": "System"
+  },
+  {
+    "Segment": "WL",
+    "Type": "Activity_Status",
+    "Code": "J",
+    "Description": "Job In Process",
+    "Sort_Order": 3,
+    "UoM_Type": "NULL",
+    "Last_Modified": "2009-08-24 09:22:40.517",
+    "Last_Modified_By": "System",
+    "Creation_Date": "2009-08-24 09:22:40.517",
+    "Created_By": "System"
+  },
+  {
+    "Segment": "WL",
+    "Type": "Activity_Status",
+    "Code": "PO",
+    "Description": "Post-Job",
+    "Sort_Order": 4,
+    "UoM_Type": "NULL",
+    "Last_Modified": "2009-08-24 09:22:40.517",
+    "Last_Modified_By": "System",
+    "Creation_Date": "2009-08-24 09:22:40.517",
+    "Created_By": "System"
+  },
+  {
+    "Segment": "WL",
+    "Type": "Activity_Status",
+    "Code": "PR",
+    "Description": "Pre-Job",
+    "Sort_Order": 8,
+    "UoM_Type": "NULL",
+    "Last_Modified": "2009-08-24 09:22:40.517",
+    "Last_Modified_By": "System",
+    "Creation_Date": "2009-08-24 09:22:40.517",
+    "Created_By": "System"
+  }
+
+]

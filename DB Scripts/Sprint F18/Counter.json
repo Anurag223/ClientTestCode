@@ -1,0 +1,12 @@
+{ 
+    "_id" : ObjectId("5c0a094e8a52f300017cf9a2"), 
+    "ID" : NumberInt(1), 
+    "SiteCounter" : NumberInt(11), 
+    "WorkStationCounter" : NumberInt(41), 
+    "SchedulerCounter" : NumberInt(55), 
+    "LanguageCounter" : NumberInt(3), 
+    "RoleCounter" : NumberInt(0), 
+    "CMMSRoleCounter" : NumberInt(0), 
+    "ClaimCounter" : NumberInt(0), 
+    "EquipmentRIMEIndices" : NumberInt(0)
+}

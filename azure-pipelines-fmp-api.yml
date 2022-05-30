@@ -1,0 +1,34 @@
+pool:
+  name: '$(azure_pool_name)'
+  demands: 
+    - Agent.ComputerName -equals azr4908devweb01
+
+trigger:
+  batch: false
+  branches:
+    include:
+    - develop
+    - releases/*
+    - sprintreleases/*
+  paths:
+    include: 
+    - FMP.API/*
+
+resources:
+  repositories:
+  - repository: templates
+    type: git
+    name: 'es-TLM-FMP-Infrastructure'
+    ref: refs/heads/develop
+
+variables:
+- group: 'Mateo2 microservice'
+- group: 'Mateo2 Build common'
+
+steps:
+- template: 'templates/azure-pipelines-steps.yml@templates'  
+  parameters:
+    projectname: 'FMP.API'
+    imagename: 'tlm-utils-api-dev'
+    NamespaceName: 'FMP.API'
+    RepositoryFolder: 'mateo2'

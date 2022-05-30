@@ -1,0 +1,2261 @@
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634db"), 
+    "ID" : NumberInt(1), 
+    "Name" : "Pump Float", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(408), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(391), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(374), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(357), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(340), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(323), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(306), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(289), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(272), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(255), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(238), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(221), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(204), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(187), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(170), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(153), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(136), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(119), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(102), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(85), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(68), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(51), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(34), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(17), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Pump Float", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634dc"), 
+    "ID" : NumberInt(2), 
+    "Name" : "Tractor", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(384), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(368), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(352), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(336), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(320), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(304), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(288), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(272), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(256), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(240), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(224), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(208), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(192), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(176), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(160), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(144), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(128), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(112), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(96), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(80), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(64), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(48), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(32), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(16), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Tractor", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634dd"), 
+    "ID" : NumberInt(3), 
+    "Name" : "Pump Float WTF", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(360), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(345), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(330), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(315), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(300), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(285), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(270), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(255), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(240), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(225), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(210), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(195), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(180), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(165), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(150), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(135), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(120), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(105), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(90), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(75), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(60), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(45), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(30), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(1), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Pump Float WTF", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634de"), 
+    "ID" : NumberInt(4), 
+    "Name" : "WTF-Tractor", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(336), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(322), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(308), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(294), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(280), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(266), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(252), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(238), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(224), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(210), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(196), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(182), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(168), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(154), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(140), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(126), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(112), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(98), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(84), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(70), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(56), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(42), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(28), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(14), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "WTF-Tractor", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634df"), 
+    "ID" : NumberInt(5), 
+    "Name" : "Sand Chief", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(312), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(299), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(286), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(273), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(260), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(247), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(234), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(221), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(208), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(195), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(182), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(169), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(156), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(143), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(130), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(117), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(104), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(91), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(78), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(65), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(52), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(39), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(26), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(13), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Sand Chief", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e0"), 
+    "ID" : NumberInt(6), 
+    "Name" : "SBF BTMIXER", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(288), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(276), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(264), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(252), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(240), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(228), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(216), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(204), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(192), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(180), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(168), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(156), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(144), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(132), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(120), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(108), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(96), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(84), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(72), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(60), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(48), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(36), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(24), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(12), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "SBF BTMIXER", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e1"), 
+    "ID" : NumberInt(7), 
+    "Name" : "GEL SLIDE", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(264), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(253), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(242), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(231), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(220), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(209), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(198), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(187), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(176), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(165), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(154), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(143), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(132), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(121), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(110), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(99), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(88), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(77), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(66), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(55), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(44), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(33), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(22), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(11), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "GEL SLIDE", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e2"), 
+    "ID" : NumberInt(8), 
+    "Name" : "Process Trailer", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(240), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(230), 
+            "CssClass" : "Red"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(220), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(210), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(200), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(190), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(180), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(170), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(160), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(150), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(140), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(130), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(120), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(110), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(100), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(90), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(80), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(70), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(60), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(50), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(40), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(30), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(20), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(10), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Process Trailer", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e3"), 
+    "ID" : NumberInt(9), 
+    "Name" : "Omega Tractor", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(216), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(207), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(198), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(189), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(180), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(171), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(162), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(153), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(144), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(135), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(126), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(117), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(108), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(99), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(90), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(81), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(72), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(63), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(54), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(45), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(36), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(27), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(18), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(9), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Omega Tractor", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e4"), 
+    "ID" : NumberInt(10), 
+    "Name" : "Missile", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(192), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(184), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(176), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(168), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(160), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(152), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(144), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(136), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(128), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(120), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(112), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(104), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(96), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(88), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(80), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(72), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(64), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(56), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(48), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(40), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(32), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(24), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(16), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(8), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Missile", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e5"), 
+    "ID" : NumberInt(11), 
+    "Name" : "FracCat", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(168), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(161), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(154), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(147), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(140), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(133), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(126), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(119), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(112), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(105), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(98), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(91), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(84), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(77), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(70), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(63), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(56), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(49), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(42), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(35), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(28), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(21), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(14), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(7), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "FracCat", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e6"), 
+    "ID" : NumberInt(12), 
+    "Name" : "Transfer Trailer", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(144), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(138), 
+            "CssClass" : "Orange"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(132), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(126), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(120), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(114), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(108), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(102), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(96), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(90), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(84), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(78), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(72), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(66), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(60), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(54), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(48), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(42), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(36), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(30), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(24), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(18), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(12), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(6), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Transfer Trailer", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e7"), 
+    "ID" : NumberInt(13), 
+    "Name" : "MGF Generator", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(120), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(115), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(110), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(105), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(100), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(95), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(90), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(85), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(80), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(75), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(70), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(65), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(60), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(55), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(50), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(45), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(40), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(35), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(30), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(25), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(20), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(15), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(10), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(5), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "MGF Generator", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e8"), 
+    "ID" : NumberInt(14), 
+    "Name" : "ACID TUBES", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(96), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(92), 
+            "CssClass" : "Yellow"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(88), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(84), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(80), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(76), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(72), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(68), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(64), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(60), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(56), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(52), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(48), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(44), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(40), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(36), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(32), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(28), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(24), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(20), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(16), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(12), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(8), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(4), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "ACID TUBES", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634e9"), 
+    "ID" : NumberInt(15), 
+    "Name" : "Chemical Transport", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(72), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(69), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(66), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(63), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(60), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(57), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(54), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(51), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(48), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(45), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(42), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(39), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(36), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(33), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(30), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(27), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(24), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(21), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(18), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(15), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(12), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(9), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(6), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(3), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Chemical Transport", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634ea"), 
+    "ID" : NumberInt(16), 
+    "Name" : "Crane", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(48), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(46), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(44), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(42), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(40), 
+            "CssClass" : "Green"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(38), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(36), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(34), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(32), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(30), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(28), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(26), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(24), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(22), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(20), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(18), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(16), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(14), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(12), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(10), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(8), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(6), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(4), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(2), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "Crane", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}
+{ 
+    "_id" : ObjectId("5c25ca5d16d76a42dc6634eb"), 
+    "ID" : NumberInt(17), 
+    "Name" : "FLATBED", 
+    "Parameters" : [
+        {
+            "Name" : "Demand", 
+            "Value" : NumberInt(24), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts available", 
+            "Value" : NumberInt(23), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Man Power", 
+            "Value" : NumberInt(22), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Shop Space", 
+            "Value" : NumberInt(21), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "CVI / DOT", 
+            "Value" : NumberInt(20), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "PM", 
+            "Value" : NumberInt(19), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Failure Repairs", 
+            "Value" : NumberInt(18), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "MB XXXX", 
+            "Value" : NumberInt(17), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "3rd party Tech (Resident)", 
+            "Value" : NumberInt(16), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Needs 3rd party Tech", 
+            "Value" : NumberInt(15), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Welder Needed", 
+            "Value" : NumberInt(14), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "3rd party (Base Movement)", 
+            "Value" : NumberInt(13), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Radiator Cleaning", 
+            "Value" : NumberInt(12), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Piping", 
+            "Value" : NumberInt(11), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Iron", 
+            "Value" : NumberInt(10), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "QC Check Required", 
+            "Value" : NumberInt(9), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Run Up Required", 
+            "Value" : NumberInt(8), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Test-Pit", 
+            "Value" : NumberInt(7), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Radiator", 
+            "Value" : NumberInt(6), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Fluid End", 
+            "Value" : NumberInt(5), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Power End", 
+            "Value" : NumberInt(4), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Trans", 
+            "Value" : NumberInt(3), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Engine", 
+            "Value" : NumberInt(2), 
+            "CssClass" : "Blue"
+        }, 
+        {
+            "Name" : "Parts Not Available", 
+            "Value" : NumberInt(1), 
+            "CssClass" : "Blue"
+        }
+    ], 
+    "Description" : "FLATBED", 
+    "IsActive" : true, 
+    "CreatedBy" : "", 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : "", 
+    "LastUpdatedDateTime" : ""
+}

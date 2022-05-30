@@ -1,0 +1,50 @@
+<ng-template #notificationPopUpTemplate>
+  <div class="user-notifications-popup">
+    <div class="modal-header notification-header">
+      <div class="headercontainer notification-title">
+        <span class="dls-icon dls-iconInformation notification-icon"></span>
+        {{ popUpHeaderTitle }}
+        <span
+          class="dls-icon dls-iconClose notification-close"
+          (click)="closeNotificationPopUp()"
+        ></span>
+      </div>
+    </div>
+    <div class="notification-body">
+      <div>
+        <p class="fmp-information-title">
+          FMP - Information - {{ startDate | date: 'dd-MMM-yyyy HH:mm' }}
+        </p>
+      </div>
+      <div
+        class="details-div"
+        [innerHTML]="popUpHtmlString | safeHtml: 'style'"
+      ></div>
+      <div style="margin-top: 15px">
+        <div style="display:inline">
+          <!-- <input type="checkbox" (change)="hideNotificationPopUp = !hideNotificationPopUp"
+            [ngModel]="hideNotificationPopUp" class="notification-checkbox">
+          <label class="hide-popup-text">Do not show this message again. </label> -->
+          <label class="fmp-checkbox" style="font-size:12px;">
+            <input
+              type="checkbox"
+              class="k-checkbox notification-checkbox"
+              (change)="hideNotificationPopUp = !hideNotificationPopUp"
+              [ngModel]="hideNotificationPopUp"
+            />
+            <span class="fmp-icons checkbox-icon checkbox-hide-popup "></span>
+            Do not show this message again.
+          </label>
+        </div>
+        <div style="display:inline">
+          <button
+            class="fmp-button fmp-button-primary close-notification-button"
+            (click)="updateNotificationPreferences(hideNotificationPopUp)"
+          >
+            OK
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>

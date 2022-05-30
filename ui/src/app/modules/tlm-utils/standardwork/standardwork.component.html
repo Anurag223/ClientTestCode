@@ -1,0 +1,96 @@
+<div id="standardWorkMainContainer" contexthelp="StandardWork-general">
+    <div class="col-md-12 spacer"></div>
+    <div>
+        Standard Work Test Page
+    </div>
+    <div class="labels">
+        eq Code<input #ecbox value="{{ equipmentCode }}"> Service Type <input #stbox value="{{ serviceType }}">  Country<input #geobox value="{{ geography }}">
+        <button class="fmp-button fmp-button-primary tlm-utils-button1" (click)="onSearchEnter(ecbox.value,stbox.value, geobox.value)">Search</button>
+        <app-upload (onUploadFinished)="uploadFinished($event)"></app-upload>
+    </div>
+    <div *ngIf="standardworkList && standardworkList.length > 0">
+
+        <div class="gridContainer" (window:resize)="onResize()">
+
+            <kendo-grid #standardworkgrid
+                        [data]="gridData"
+                        [pageable]="gridModel.isPagingEnabled"
+                        [height]="[gridModel.gridHeight]"
+                        (pageChange)="pageChange($event)"
+                        (dataStateChange)="dataStateChange($event)"
+                        [resizable]="gridModel.isColumnResizingEnabled"
+                        [pageSize]="gridModel.take"
+                        [skip]="gridModel.skip"
+                        [group]="gridModel.GroupSettings"
+                        [groupable]="gridModel.isGroupingEnabled"
+                        [filter]="gridModel.FilterSettings"
+                        [filterable]="gridModel.isFilteringEnabled"
+                        [reorderable]="gridModel.isColumnReOrderEnabled"
+                        [sortable]="gridModel.sorting"
+                        [sort]="gridModel.SortSettings"
+                        [selectable]="true"
+                        [isSelected]="isItemSelected"
+                        (selectionChange)="handleSelection($event)"
+                        [(selectedKeys)]="selectedKeys">
+                <ng-template kendoPagerTemplate>
+                    <kendo-pager-prev-buttons></kendo-pager-prev-buttons>
+                    <kendo-pager-numeric-buttons [buttonCount]="btnCount"></kendo-pager-numeric-buttons>
+                    <kendo-pager-input></kendo-pager-input>
+                    <kendo-pager-next-buttons></kendo-pager-next-buttons>
+                    <kendo-pager-page-sizes [pageSizes]="gridModel.pager.pageSizeOptions"></kendo-pager-page-sizes>
+                    <kendo-pager-info></kendo-pager-info>
+                </ng-template>
+                <kendo-grid-column field="attributes.swId"
+                                   title="SW ID"
+                                   width="120px">
+                </kendo-grid-column>
+                <kendo-grid-column field="originalFileName"
+                                   title="Orig. File"
+                                   width="120px">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        <a href="javascript:void(0)" (click)="GetFileEvent(dataItem)">{{dataItem.attributes.originalFileName}}</a>
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="attributes.swtype"
+                                   title="SW Type"
+                                   width="120px">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        <div>{{ convertSWType(dataItem) }}</div>
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="attributes.title"
+                                   title="title"
+                                   width="120px">
+                </kendo-grid-column>
+                <kendo-grid-column field="attributes.shortDescriptions"
+                                   title="Desc"
+                                   width="120px">
+                </kendo-grid-column>
+                <kendo-grid-column field="attributes.keywords"
+                                   title="Keywords"
+                                   width="120px">
+                </kendo-grid-column>
+                <kendo-grid-column field="referencedSWs" title="Related SW" width="120px">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        <div *ngFor="let refdSW of dataItem.attributes.referencedSWs">{{refdSW.referencedSWId}}</div>
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="applicableEquipment" title="Appl.Eq.Models" width="120px">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        <div *ngFor="let equip of dataItem.attributes.metaData.applicableEquipment">{{equip.id}}</div>
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="countries" title="Countries" width="120px">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        <div *ngFor="let country of dataItem.attributes.metaData.countries">{{country.name}}</div>
+                    </ng-template>
+                </kendo-grid-column>
+                <kendo-grid-column field="services" title="Services" width="120px">
+                    <ng-template kendoGridCellTemplate let-dataItem>
+                        <div *ngFor="let service of dataItem.attributes.metaData.services">{{service.serviceTypeID}}</div>
+                    </ng-template>
+                </kendo-grid-column>
+            </kendo-grid>
+        </div>
+    </div>
+</div>

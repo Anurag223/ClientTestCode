@@ -1,0 +1,44 @@
+[
+    {
+        "_id": ObjectId("5bee8da1f491726330a05e9a"),
+        "ID": NumberInt(1),
+        "ParentID": NumberInt(1),
+        "StartTime": "08:30 AM",
+        "EndTime": "07:00 PM",
+        "BreakStart": "12:30 PM",
+        "BreakEnd": "01:30 PM",
+        "WorkWeek": [
+            {
+                "Name": "Sun",
+                "Value": "false"
+            },
+            {
+                "Name": "Mon",
+                "Value": "true"
+            },
+            {
+                "Name": "Tue",
+                "Value": "true"
+            },
+            {
+                "Name": "Wed",
+                "Value": "true"
+            },
+            {
+                "Name": "Thu",
+                "Value": "true"
+            },
+            {
+                "Name": "Fri",
+                "Value": "true"
+            },
+            {
+                "Name": "Sat",
+                "Value": "false"
+            }
+        ],
+        "FirstDayofWeek": "Monday",
+        "CreatedBy": NumberInt(6208664),
+        "LastUpdatedBy": NumberInt(6208664)
+    }
+]

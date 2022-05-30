@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+
+  tlm-utils-nginx:
+    image: nginx:1.15.11
+    container_name: tlm-utils-nginx
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    ports: 
+      - "9149:9149"
+    networks:
+      - bin_apptier
+
+networks:
+  bin_apptier:
+    driver: bridge

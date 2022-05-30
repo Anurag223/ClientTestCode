@@ -1,0 +1,41 @@
+version: '3.4'
+
+services:
+  tlm-utils-client-dev-app:
+    image: azr6382cr01.azurecr.io/tlm-utils-client-dev-app:${IMAGE_TAG}
+    hostname: tlm-utils-client-dev-app
+    container_name: tlm-utils-client-dev-app
+    environment:
+      - FMP_UI_ENVIRONMENT=${FMP_UI_ENVIRONMENT}
+      - MATEOBASEURL=${MATEOBASEURL}
+      - FMPBASEURL=${FMPBASEURL}
+      - INFLUXDBURL=${INFLUXDBURL}
+      - STSSERVER=${STSSERVER}
+      - POSTLOGOUTREDIRECTURL=${POSTLOGOUTREDIRECTURL}
+      - SILENTRENEWURL=${SILENTRENEWURL}
+      - EQUIPMENTHEALTHBASEURL=${EQUIPMENTHEALTHBASEURL}
+      - NEWEQUIPMENTBASEURL=${NEWEQUIPMENTBASEURL}
+      - EHCAPIBASEURL=${EHCAPIBASEURL}
+      - EHCADMINAPIBASEURL=${EHCADMINAPIBASEURL}
+      - STANDARDWORKBASEURL=${STANDARDWORKBASEURL}
+      - INCLUDEDFEATURES=${INCLUDEDFEATURES}
+    ports:
+      - '32403:4200'
+    networks:
+      - tlm.fed.net
+    volumes:
+      - /data/secrets/CA1.crt:/usr/local/share/ca-certificates/CA1.crt
+      - /data/secrets/CA2.crt:/usr/local/share/ca-certificates/CA2.crt
+      - /data/secrets/Root.crt:/usr/local/share/ca-certificates/Root.crt
+      - /data/secrets/certificate.crt:/usr/local/share/ca-certificates/certificate.crt
+      - /data/secrets/run.sh:/usr/local/share/ca-certificates/run.sh
+    restart: unless-stopped
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '2m'
+        max-file: '3'
+networks:
+  tlm.fed.net:
+    external:
+      name: tlm.fed.net

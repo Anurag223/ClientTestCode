@@ -1,0 +1,105 @@
+<h3 class="heading"><b>Bulk Import Channels</b></h3>
+<div id="channelAdminMainContainer">
+    <div>
+
+        <ng-template #importContent let-modal>
+            <div class="modal-header">
+                <h4 class="modal-title" id="modal-basic-title">
+                    Bulk upload channel definitions
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form class="form" #registerForm="ngForm"
+                    (ngSubmit)="registerForm.form.valid && onSubmit(channelsForEquipmentModel)">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control textboxAlignment" required id="equipmentCode"
+                                [(ngModel)]="channelsForEquipmentModel.equipmentCode" placeholder="Equipment Code"
+                                name="equipmentcode" #equipmentcode="ngModel" equipmentcode>
+                            <div *ngIf="(equipmentcode.touched || registerForm.submitted) && equipmentcode.errors?.required"
+                                class="alert alert-danger validationstyling">
+                                Equipment code is required
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="file" class="form-control" required id="file"
+                                [(ngModel)]="channelsForEquipmentModel.file" placeholder="file" name="file"
+                                #file="ngModel" accept=".xlsx, .xls, .csv" file (change)="handleFileInput($event)">
+                            <div *ngIf="(file.touched || registerForm.submitted) && file.errors?.required"
+                                class="alert alert-danger validationstyling">
+                                Please upload a file
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <button type="button" class="btn btn-outline-danger closeModal"
+                                    (click)="modal.dismiss('Cross click');closeModal()">
+                                    Cancel
+                                </button>
+                                <button style="height:20px;" type="submit" class="btn btn-outline-primary">
+                                    Upload
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </ng-template>
+
+
+    </div>
+
+    <div class="buttonBlock">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <button *ngIf="channelAndEquipmentCodes!=null && channelAndEquipmentCodes.length > 0"
+                    class="fmp-button fmp-button-primary solid-button" (click)="exportDataToExcel()">
+                    Export Channel Codes
+                </button>
+                <button class="fmp-button fmp-button-primary solid-button"
+                    (click)="openModalForImportingChannelDefinitions(importContent)">
+                    Import Channel Definitions
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="gridContainer" (window:resize)="onResize()">
+        <kendo-grid #channeldefinitiongrid [data]="gridData" [pageable]="gridModel.isPagingEnabled"
+            [height]="[gridModel.gridHeight]" (pageChange)="pageChange($event)"
+            (dataStateChange)="dataStateChange($event)" [resizable]="gridModel.isColumnResizingEnabled"
+            [pageSize]="gridModel.take" [skip]="gridModel.skip" [group]="gridModel.GroupSettings"
+            [groupable]="gridModel.isGroupingEnabled" [filter]="gridModel.FilterSettings"
+            [filterable]="gridModel.isFilteringEnabled" [reorderable]="gridModel.isColumnReOrderEnabled"
+            [sortable]="gridModel.sorting" [sort]="gridModel.SortSettings" [selectable]="true" [scrollable]="true" >
+
+            <ng-template kendoPagerTemplate>
+                <kendo-pager-prev-buttons></kendo-pager-prev-buttons>
+                <kendo-pager-numeric-buttons [buttonCount]="btnCount"></kendo-pager-numeric-buttons>
+                <kendo-pager-input></kendo-pager-input>
+                <kendo-pager-next-buttons></kendo-pager-next-buttons>
+                <kendo-pager-page-sizes [pageSizes]="gridModel.pager.pageSizeOptions"></kendo-pager-page-sizes>
+                <kendo-pager-info></kendo-pager-info>
+            </ng-template>
+
+            <kendo-grid-column field="channelCode" title="Channel Code" width="200px" filter="text"
+                [headerClass]="'columnStyle'"
+                [footerClass]="'columnStyle'">    
+                <ng-template kendoGridFooterTemplate>Total Records : {{this.channelAndEquipmentCodes.length}}</ng-template>                  
+</kendo-grid-column>
+
+            <kendo-grid-column field="equipmentCode" title="Equipment Code" width="200px" filter="text"
+                [headerClass]="'columnStyle'">
+            </kendo-grid-column>
+
+        </kendo-grid>
+    </div>
+</div>

@@ -1,0 +1,973 @@
+{ 
+    "_id" : ObjectId("5c0de695653a7400013107ca"), 
+    "ID" : NumberInt(17), 
+    "ParentID" : NumberInt(9), 
+    "StartTime" : "18:29:00.000", 
+    "EndTime" : "16:31:00.000", 
+    "BreakStart" : "14:32:00.000", 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Monday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0de760653a7400013107cc"), 
+    "ID" : NumberInt(18), 
+    "ParentID" : NumberInt(10), 
+    "StartTime" : "04:30:00.000", 
+    "EndTime" : "13:30:00.000", 
+    "BreakStart" : "03:30:00.000", 
+    "BreakEnd" : "04:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Monday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0de763653a7400013107ce"), 
+    "ID" : NumberInt(19), 
+    "ParentID" : NumberInt(11), 
+    "StartTime" : "06:31:00.000", 
+    "EndTime" : "09:33:00.000", 
+    "BreakStart" : "17:46:00.000", 
+    "BreakEnd" : "02:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sat", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Friday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0dea53653a7400013107d1"), 
+    "ID" : NumberInt(20), 
+    "ParentID" : NumberInt(12), 
+    "StartTime" : "06:36:00.000", 
+    "EndTime" : "14:34:00.000", 
+    "BreakStart" : "10:30:00.000", 
+    "BreakEnd" : "14:32:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Monday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0deb5d653a7400013107d3"), 
+    "ID" : NumberInt(21), 
+    "ParentID" : NumberInt(13), 
+    "StartTime" : "06:31:00.000", 
+    "EndTime" : "10:42:00.000", 
+    "BreakStart" : "10:42:00.000", 
+    "BreakEnd" : "06:38:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Sat", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sun", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Sunday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e0e28653a7400013107e1"), 
+    "ID" : NumberInt(22), 
+    "ParentID" : NumberInt(14), 
+    "StartTime" : "19:30:00.000", 
+    "EndTime" : "00:30:00.000", 
+    "BreakStart" : "21:30:00.000", 
+    "BreakEnd" : "22:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Monday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e0e6d653a7400013107e3"), 
+    "ID" : NumberInt(23), 
+    "ParentID" : NumberInt(15), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sat", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Tuesday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e111b653a7400013107e5"), 
+    "ID" : NumberInt(24), 
+    "ParentID" : NumberInt(16), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e1136653a7400013107e7"), 
+    "ID" : NumberInt(25), 
+    "ParentID" : NumberInt(17), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e116f653a7400013107e9"), 
+    "ID" : NumberInt(26), 
+    "ParentID" : NumberInt(18), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e1258653a7400013107eb"), 
+    "ID" : NumberInt(27), 
+    "ParentID" : NumberInt(19), 
+    "StartTime" : "18:30:00.000", 
+    "EndTime" : "00:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Tuesday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e1265653a7400013107ed"), 
+    "ID" : NumberInt(28), 
+    "ParentID" : NumberInt(20), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e136d653a7400013107ef"), 
+    "ID" : NumberInt(29), 
+    "ParentID" : NumberInt(21), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e45ecbd5db90001cff190"), 
+    "ID" : NumberInt(30), 
+    "ParentID" : NumberInt(22), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Tuesday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e472ebd5db90001cff192"), 
+    "ID" : NumberInt(31), 
+    "ParentID" : NumberInt(23), 
+    "StartTime" : "03:30:00.000", 
+    "EndTime" : "00:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Monday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e4d83bd5db90001cff195"), 
+    "ID" : NumberInt(32), 
+    "ParentID" : NumberInt(24), 
+    "StartTime" : "03:30:00.000", 
+    "EndTime" : "00:30:00.000", 
+    "BreakStart" : "20:30:00.000", 
+    "BreakEnd" : "21:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Monday", 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e5bd25301b1000186996f"), 
+    "ID" : NumberInt(33), 
+    "ParentID" : NumberInt(25), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e5de45301b10001869973"), 
+    "ID" : NumberInt(35), 
+    "ParentID" : NumberInt(27), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e5df05301b10001869975"), 
+    "ID" : NumberInt(36), 
+    "ParentID" : NumberInt(28), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e61035301b10001869977"), 
+    "ID" : NumberInt(37), 
+    "ParentID" : NumberInt(29), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0e61105301b10001869979"), 
+    "ID" : NumberInt(38), 
+    "ParentID" : NumberInt(30), 
+    "StartTime" : null, 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10b05e5301b10001869980"), 
+    "ID" : NumberInt(39), 
+    "ParentID" : NumberInt(31), 
+    "StartTime" : "18:30:00.000", 
+    "EndTime" : null, 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+
+    ], 
+    "FirstDayofWeek" : null, 
+    "CreatedBy" : NumberInt(0), 
+    "LastUpdatedBy" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c2efaedc52422000175aafa"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(40), 
+    "ParentID" : NumberInt(5), 
+    "Type" : NumberInt(1), 
+    "StartTime" : "02:30:00.000", 
+    "EndTime" : "15:30:00.000", 
+    "BreakStart" : "06:30:00.000", 
+    "BreakEnd" : "07:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Sun", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Mon", 
+            "Value" : false
+        }
+    ], 
+    "FirstDayofWeek" : "Tuesday"
+}
+{ 
+    "_id" : ObjectId("5c2efb54c52422000175aafc"), 
+    "IsActive" : false, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(41), 
+    "ParentID" : NumberInt(32), 
+    "Type" : NumberInt(2), 
+    "StartTime" : "03:30:00.000", 
+    "EndTime" : "12:30:00.000", 
+    "BreakStart" : "07:30:00.000", 
+    "BreakEnd" : "08:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Tue", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Sat", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sun", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Saturday"
+}
+{ 
+    "_id" : ObjectId("5c2efc81c52422000175aafe"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(42), 
+    "ParentID" : NumberInt(33), 
+    "Type" : NumberInt(2), 
+    "StartTime" : "02:30:00.000", 
+    "EndTime" : "15:30:00.000", 
+    "BreakStart" : "06:30:00.000", 
+    "BreakEnd" : "07:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Tue", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sun", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Mon", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Tuesday"
+}
+{ 
+    "_id" : ObjectId("5c2efef6c52422000175ab00"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(43), 
+    "ParentID" : NumberInt(6), 
+    "Type" : NumberInt(1), 
+    "StartTime" : "04:30:00.000", 
+    "EndTime" : "13:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Thursday"
+}
+{ 
+    "_id" : ObjectId("5c2eff75c52422000175ab02"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(44), 
+    "ParentID" : NumberInt(34), 
+    "Type" : NumberInt(2), 
+    "StartTime" : "04:30:00.000", 
+    "EndTime" : "13:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Thursday"
+}
+{ 
+    "_id" : ObjectId("5c2f09f7c52422000175ab05"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(45), 
+    "ParentID" : NumberInt(7), 
+    "Type" : NumberInt(1), 
+    "StartTime" : "03:30:00.000", 
+    "EndTime" : "12:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Monday"
+}
+{ 
+    "_id" : ObjectId("5c2f0b11c52422000175ab0a"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(46), 
+    "ParentID" : NumberInt(35), 
+    "Type" : NumberInt(2), 
+    "StartTime" : "03:30:00.000", 
+    "EndTime" : "16:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Monday"
+}
+{ 
+    "_id" : ObjectId("5c2f0f53c52422000175ab0d"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(47), 
+    "ParentID" : NumberInt(8), 
+    "Type" : NumberInt(1), 
+    "StartTime" : "18:30:00.000", 
+    "EndTime" : "22:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Tue", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sat", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Tuesday"
+}
+{ 
+    "_id" : ObjectId("5c2f11b8c52422000175ab0f"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(48), 
+    "ParentID" : NumberInt(9), 
+    "Type" : NumberInt(1), 
+    "StartTime" : "04:30:00.000", 
+    "EndTime" : "17:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Thursday"
+}
+{ 
+    "_id" : ObjectId("5c2f11c2c52422000175ab11"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(49), 
+    "ParentID" : NumberInt(36), 
+    "Type" : NumberInt(2), 
+    "StartTime" : "04:30:00.000", 
+    "EndTime" : "17:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Thursday"
+}
+{ 
+    "_id" : ObjectId("5c2f11e0c52422000175ab13"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(50), 
+    "ParentID" : NumberInt(37), 
+    "Type" : NumberInt(2), 
+    "StartTime" : "04:30:00.000", 
+    "EndTime" : "17:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Thursday"
+}
+{ 
+    "_id" : ObjectId("5c2f1a69c52422000175ab15"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(51), 
+    "ParentID" : NumberInt(38), 
+    "Type" : NumberInt(2), 
+    "StartTime" : "04:30:00.000", 
+    "EndTime" : "17:30:00.000", 
+    "BreakStart" : null, 
+    "BreakEnd" : null, 
+    "WorkWeek" : [
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Thursday"
+}
+{ 
+    "_id" : ObjectId("5c2f27a9a91b6700010beac1"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(52), 
+    "ParentID" : NumberInt(10), 
+    "Type" : NumberInt(1), 
+    "StartTime" : "02:30:00.000", 
+    "EndTime" : "11:30:00.000", 
+    "BreakStart" : "07:30:00.000", 
+    "BreakEnd" : "08:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sat", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sun", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Wednesday"
+}
+{ 
+    "_id" : ObjectId("5c2f296fa91b6700010beac3"), 
+    "IsActive" : false, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(53), 
+    "ParentID" : NumberInt(39), 
+    "Type" : NumberInt(2), 
+    "StartTime" : "03:30:00.000", 
+    "EndTime" : "12:30:00.000", 
+    "BreakStart" : "08:30:00.000", 
+    "BreakEnd" : "09:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Mon", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Tue", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Wed", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : false
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : false
+        }
+    ], 
+    "FirstDayofWeek" : "Monday"
+}
+{ 
+    "_id" : ObjectId("5c2f2df9a91b6700010beac7"), 
+    "IsActive" : true, 
+    "CreatedBy" : null, 
+    "CreatedDateTime" : "", 
+    "LastUpdatedBy" : null, 
+    "LastUpdatedDateTime" : "", 
+    "ID" : NumberInt(54), 
+    "ParentID" : NumberInt(40), 
+    "Type" : NumberInt(2), 
+    "StartTime" : "02:30:00.000", 
+    "EndTime" : "11:30:00.000", 
+    "BreakStart" : "07:30:00.000", 
+    "BreakEnd" : "08:30:00.000", 
+    "WorkWeek" : [
+        {
+            "Name" : "Wed", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Thu", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Fri", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sat", 
+            "Value" : true
+        }, 
+        {
+            "Name" : "Sun", 
+            "Value" : true
+        }
+    ], 
+    "FirstDayofWeek" : "Wednesday"
+}

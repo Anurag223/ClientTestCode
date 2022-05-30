@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  tlm-utils-app:
+    image: tlm-utils-dev-app
+    hostname: tlm-utils-dev-app
+    container_name: tlm-utils-dev-app
+    ports:
+      - '32403:4200'
+    networks:
+      - tlm.fed.net
+    restart: unless-stopped
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '2m'
+        max-file: '3'
+networks:
+  tlm.fed.net:
+    external:
+      name: tlm.fed.net

@@ -1,0 +1,26 @@
+/* Colors */
+
+$scheduler-border: #f3f5f8;
+$scheduler-day-border: #c0c9d3;
+$scheduler-header-border: #dce2e8;
+$scheduler-dropdown: #39414d;
+$scheduler-today-background: #a0d4ff;
+$scheduler-date: #2d343d;
+$scheduler-toolbar-background: #e8ecf2;
+$scheduler-resource-link-color: #136fd5;
+$today-line: #ff5a5a;
+$pagination-arrow: #669bc6;
+$splitter-toggle-active: #1683fb;
+$splitter-toggle-normal: #c7d0d8;
+
+$event-background-color: #136fd5;
+$event-border-color: #0b4484;
+
+$black: #000;
+$white: #ffffff;
+
+/* Other settings */
+
+// when changed the Javascript config property called resourceColumnWidth should also be updated in
+// ui/src/app/modules/p-n-s/scheduler/models/scheduler-config.model.ts
+$resource-column-width: 104px;

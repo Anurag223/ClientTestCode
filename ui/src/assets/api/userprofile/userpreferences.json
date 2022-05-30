@@ -1,0 +1,92 @@
+[
+    {
+        "_id": "5b64005309cc4e0001688a28",
+        "profileID": 1,
+        "userID": "fmpuser",
+        "lastApplicationName": "ActivityMonitor",
+        "roleName": null,
+        "activeLocations": null,
+        "isActive": false,
+        "refreshInterval": 0
+    },
+    {
+        "_id": "5b9e065f953dc443f4c5e4ab",
+        "profileID": 18,
+        "userID": "fmpuser",
+        "lastApplicationName": "ActivityMonitor",
+        "roleName": "Global Administrator",
+        "activeLocations": "VEWDTR",
+        "isActive": false,
+        "refreshInterval": 0
+    },
+    {
+        "_id": "5baf369bdee5a52d9ce99815",
+        "profileID": 20,
+        "userID": "fmpuser",
+        "lastApplicationName": "ActivityMonitor",
+        "roleName": "ADMINISTRATOR",
+        "activeLocations": "ABE",
+        "isActive": false,
+        "refreshInterval": 0
+    },
+    {
+        "_id": "5baf461adee5a52d9ce99816",
+        "profileID": 21,
+        "userID": "fmpuser",
+        "lastApplicationName": "ActivityMonitor",
+        "roleName": "GUEST",
+        "activeLocations": "UKATLM",
+        "isActive": true,
+        "refreshInterval": 0
+    },
+    {
+        "_id": "5bb0398bd6f0542adce868e6",
+        "profileID": 20,
+        "userID": "fmpuser",
+        "lastApplicationName": "ActivityMonitor",
+        "roleName": "LEAD TECH",
+        "activeLocations": "PIFTLM",
+        "isActive": false,
+        "refreshInterval": 0
+    },
+    {
+        "_id": "5bb039f0d6f0542adce868e7",
+        "profileID": 21,
+        "userID": "fmpuser",
+        "lastApplicationName": "ActivityMonitor",
+        "roleName": "ASSET COORDINATOR",
+        "activeLocations": "RNYTLM",
+        "isActive": false,
+        "refreshInterval": 0
+    },
+    {
+        "_id": "5bb03c2fd6f0542adce868e8",
+        "profileID": 22,
+        "userID": "fmpuser",
+        "lastApplicationName": "ActivityMonitor",
+        "roleName": "HQ",
+        "activeLocations": "Master",
+        "isActive": false,
+        "refreshInterval": 0
+    },
+    {
+        "_id": "5bb06a1ed6f0542adce868e9",
+        "profileID": 20,
+        "userID": "fmpuser",
+        "lastApplicationName": "ActivityMonitor",
+        "roleName": "Location Administrator",
+        "activeLocations": "OKCTLM,KOCTLM,IDCE-TREW1,INC1-TREW1",
+        "isActive": false,
+        "refreshInterval": 0
+    },
+    {
+        "_id": "5bb0b305d6f0542adce868ea",
+        "profileID": 20,
+        "userID": "fmpuser",
+        "lastApplicationName": "ActivityMonitor",
+        "roleName": "LOCAL ADMINISTRATOR",
+        "activeLocations": "OMN",
+        "isActive": false,
+        "refreshInterval": 0
+    }
+]

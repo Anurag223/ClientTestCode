@@ -1,0 +1,75 @@
+{ 
+    "_id" : ObjectId("5b59a494d209384344836a24"), 
+    "LayoutID" : NumberInt(1), 
+    "UserID" : "SystemUser", 
+    "ApplicationName" : "WorkCenter", 
+    "LayoutName" : "Work Center View", 
+    "LayoutConfigs" : [
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(1), 
+            "ColumnName" : "LDAP Alias", 
+            "IsLocked" : "False", 
+            "Sequence" : NumberInt(1), 
+            "ToolTip" : "This column cannot be removed.", 
+            "FieldName" : "LDAP_Alias"
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(2), 
+            "ColumnName" : "First Name", 
+            "IsLocked" : "true", 
+            "Sequence" : NumberInt(2), 
+            "ToolTip" : "This column cannot be removed.", 
+            "FieldName" : "First_Name"
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(3), 
+            "ColumnName" : "Last Name", 
+            "IsLocked" : "true", 
+            "Sequence" : NumberInt(3), 
+            "ToolTip" : "This column cannot be removed.", 
+            "FieldName" : "Last_Name"
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(4), 
+            "ColumnName" : "Role", 
+            "IsLocked" : "true", 
+            "Sequence" : NumberInt(4), 
+            "ToolTip" : "Are you sure you want to reomve this column?", 
+            "FieldName" : "Role_Name"
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(5), 
+            "ColumnName" : "Assigned Center", 
+            "IsLocked" : "true", 
+            "Sequence" : NumberInt(5), 
+            "ToolTip" : "Are you sure you want to reomve this column?", 
+            "FieldName" : "WorkCenter"
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(6), 
+            "ColumnName" : "Country", 
+            "IsLocked" : "true", 
+            "Sequence" : NumberInt(6), 
+            "ToolTip" : "This column cannot be removed.", 
+            "FieldName" : "Country"
+        }
+    ]
+}

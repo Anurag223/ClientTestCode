@@ -1,0 +1,1224 @@
+{ 
+    "_id" : ObjectId("5b59a494d209384344836a24"), 
+    "LayoutID" : NumberInt(1), 
+    "UserID" : "SystemUser", 
+    "ApplicationName" : "WorkCenter", 
+    "LayoutName" : "Work Center View", 
+    "LayoutConfigs" : [
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(1), 
+            "ColumnName" : "LDAP Alias", 
+            "IsLocked" : "False", 
+            "Sequence" : NumberInt(1), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(2), 
+            "ColumnName" : "First Name", 
+            "IsLocked" : "False", 
+            "Sequence" : NumberInt(2), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(3), 
+            "ColumnName" : "Last Name", 
+            "IsLocked" : "False", 
+            "Sequence" : NumberInt(3), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(4), 
+            "ColumnName" : "Role", 
+            "IsLocked" : "False", 
+            "Sequence" : NumberInt(4), 
+            "ToolTip" : "Are you sure you want to reomve this column?"
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(5), 
+            "ColumnName" : "Assigned Center", 
+            "IsLocked" : "False", 
+            "Sequence" : NumberInt(5), 
+            "ToolTip" : "Are you sure you want to reomve this column?"
+        }, 
+        {
+            "LayoutName" : "WorkCenter View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(6), 
+            "ColumnName" : "Country", 
+            "IsLocked" : "False", 
+            "Sequence" : NumberInt(6), 
+            "ToolTip" : "This column cannot be removed."
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5b59a494d209384344836a28"), 
+    "LayoutID" : NumberInt(2), 
+    "UserID" : "SystemUser", 
+    "ApplicationName" : "PlanandSchedule", 
+    "LayoutName" : "Resource View", 
+    "LayoutConfigs" : [
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(1), 
+            "ColumnName" : "WO Employee Assigned", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(1), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(2), 
+            "ColumnName" : "Equipment Code", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(2), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(3), 
+            "ColumnName" : "Equipment SN", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(3), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(4), 
+            "ColumnName" : "WO Number", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(4), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(5), 
+            "ColumnName" : "Work Type and Level", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(5), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(6), 
+            "ColumnName" : "WO Status", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(6), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(7), 
+            "ColumnName" : "WO Planned Start Date", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(7), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(8), 
+            "ColumnName" : "WO Planned End Date", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(8), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(9), 
+            "ColumnName" : "PSD Requested Date", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(9), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(10), 
+            "ColumnName" : "PSD Requesting District", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(10), 
+            "ToolTip" : "This column cannot be removed."
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5b59a494d209384344836a29"), 
+    "LayoutID" : NumberInt(3), 
+    "UserID" : "SystemUser", 
+    "ApplicationName" : "PlanandSchedule", 
+    "LayoutName" : "Equipment View", 
+    "LayoutConfigs" : [
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(1), 
+            "ColumnName" : "Equipment Code", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(1), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(2), 
+            "ColumnName" : "Equipment SN", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(2), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(3), 
+            "ColumnName" : "Association ID", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(3), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(4), 
+            "ColumnName" : "Toolset Name", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(4), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(5), 
+            "ColumnName" : "Located Site Name", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(5), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(6), 
+            "ColumnName" : "Days in Located Site", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(6), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(7), 
+            "ColumnName" : "PAU", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(7), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(8), 
+            "ColumnName" : "Life", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(8), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(9), 
+            "ColumnName" : "Life Details", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(9), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(10), 
+            "ColumnName" : "Equipment Status 1", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(10), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(11), 
+            "ColumnName" : "Equipment Status 2", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(11), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(12), 
+            "ColumnName" : "Equipment Status 3", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(12), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(13), 
+            "ColumnName" : "Equipment Status 4", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(13), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(14), 
+            "ColumnName" : "Equipment Status 5", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(14), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(15), 
+            "ColumnName" : "PSD Requested Date", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(15), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Equipment View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(16), 
+            "ColumnName" : "PSD Requesting District", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(16), 
+            "ToolTip" : "This column cannot be removed."
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5b59a494d209384344836a2a"), 
+    "LayoutID" : NumberInt(4), 
+    "UserID" : "SystemUser", 
+    "ApplicationName" : "PlanandSchedule", 
+    "LayoutName" : "Work Order View", 
+    "LayoutConfigs" : [
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(1), 
+            "ColumnName" : "Equipment Code", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(1), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "true", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(2), 
+            "ColumnName" : "Equipment SN", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(2), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "false", 
+            "ColumnId" : NumberInt(3), 
+            "ColumnName" : "Life", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(3), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(4), 
+            "ColumnName" : "WO Number", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(4), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(5), 
+            "ColumnName" : "Work Type and Level", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(5), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(6), 
+            "ColumnName" : "WO Status", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(6), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(7), 
+            "ColumnName" : "WO Planned Start Date", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(7), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(8), 
+            "ColumnName" : "WO Planned End Date", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(8), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(9), 
+            "ColumnName" : "Master Work Order", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(9), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(10), 
+            "ColumnName" : "WO Comments", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(10), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(11), 
+            "ColumnName" : "PSD Requested Date", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(11), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(12), 
+            "ColumnName" : "WO Employee Assigned", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(12), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(13), 
+            "ColumnName" : "WO TMO Status", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(13), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(14), 
+            "ColumnName" : "WO TMO EDD", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(14), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(15), 
+            "ColumnName" : "FRNo", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(15), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Resource View", 
+            "IsDefault" : "false", 
+            "disabled" : "true", 
+            "ColumnId" : NumberInt(16), 
+            "ColumnName" : "FR Status", 
+            "IsLocked" : "false", 
+            "Sequence" : NumberInt(16), 
+            "ToolTip" : "This column cannot be removed."
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("5b72d16a0d43210538c77903"), 
+    "LayoutID" : NumberInt(5), 
+    "UserID" : "SystemUser", 
+    "ApplicationName" : "ActivityMonitor", 
+    "LayoutName" : "Demand View", 
+    "LayoutConfigs" : [
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(3), 
+            "ColumnName" : "TLM Ship Date", 
+            "FieldName" : "parentEquipmentRequest.tlmShipDate", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(1), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(1), 
+            "ColumnName" : "TCO Number", 
+            "FieldName" : "parentEquipmentRequest.TCONumber", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(2), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(14), 
+            "ColumnName" : "TRO", 
+            "FieldName" : "troNumber", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(3), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(6), 
+            "ColumnName" : "Priority", 
+            "FieldName" : "parentEquipmentRequest.Priority.value", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(4), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(109), 
+            "ColumnName" : "Version", 
+            "FieldName" : "parentEquipmentRequest.version", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(5), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(112), 
+            "ColumnName" : "TCO Last Updated", 
+            "FieldName" : "parentEquipmentRequest.modifiedDate", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(6), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(2), 
+            "ColumnName" : "Job Number", 
+            "FieldName" : "parentEquipmentRequest.job.jobNumber", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(7), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(7), 
+            "ColumnName" : "Tool Name", 
+            "FieldName" : "name", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(8), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(118), 
+            "ColumnName" : "EDO Tool Status", 
+            "FieldName" : "status", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(9), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(81), 
+            "ColumnName" : "EDO Tool Assigned", 
+            "FieldName" : "EDOToolAssigned", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(10), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(4), 
+            "ColumnName" : "Planned Ship Date", 
+            "FieldName" : "movementDate", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(11), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(5), 
+            "ColumnName" : "Next Ship Date", 
+            "FieldName" : "nextMovementDate", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(12), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(13), 
+            "ColumnName" : "TLM Actual Ship Date", 
+            "FieldName" : "equipmentDemandFulFillment.movement.shipmentDate", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(13), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(139), 
+            "ColumnName" : "Shipment Number", 
+            "FieldName" : "equipmentDemandFulFillment.movement.shipmentNumber", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(14), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(15), 
+            "ColumnName" : "Redirect From", 
+            "FieldName" : "redirectedFromSite", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(15), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(15), 
+            "ColumnName" : "Redirect To", 
+            "FieldName" : "redirectedToSite", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(16), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(161), 
+            "ColumnName" : "Movement Type", 
+            "FieldName" : "redirectedType", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(17), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(176), 
+            "ColumnName" : "TCO Comments", 
+            "FieldName" : "parentEquipmentRequest.comments", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(18), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(193), 
+            "ColumnName" : "Shipping Instructions", 
+            "FieldName" : "parentEquipmentRequest.ShippingInstructions.value", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(19), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(211), 
+            "ColumnName" : "Maintenance & Operations", 
+            "FieldName" : "parentEquipmentRequest.MaintenanceOperations.value", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(20), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(225), 
+            "ColumnName" : "PCV", 
+            "FieldName" : "equipmentDemandFulFillment.pcv", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(21), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(242), 
+            "ColumnName" : "TCO Report", 
+            "FieldName" : "TCO_Report", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(22), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(248), 
+            "ColumnName" : "Product Line", 
+            "FieldName" : "requestedEquipmentProductLine", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(23), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Demand View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(254), 
+            "ColumnName" : "Product Group", 
+            "FieldName" : "requestedEquipmentBrand", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(24), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }
+    ], 
+    "Sort" : [
+        {
+            "dir" : "asc", 
+            "field" : "parentEquipmentRequest.tlmShipDate"
+        }, 
+        {
+            "dir" : "asc", 
+            "field" : "name"
+        }
+    ], 
+    "Group" : [
+        {
+            "dir" : "asc", 
+            "field" : "nextMovementDate"
+        }, 
+        {
+            "dir" : "asc", 
+            "field" : "parentEquipmentRequest.TCONumber"
+        }, 
+        {
+            "dir" : "asc", 
+            "field" : "requestedEquipmentProductLine"
+        }, 
+        {
+            "dir" : "asc", 
+            "field" : "requestedEquipmentBrand"
+        }
+    ], 
+    "Filter" : {
+        "Filters" : [
+            {
+                "Field" : null, 
+                "Operator" : null, 
+                "Value" : null, 
+                "Filters" : [
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Accepted", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Cancelled", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Modified", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Redirected", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Rejected", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Released", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Shipped", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Submitted", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Voided", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }
+                ], 
+                "Logic" : "or"
+            }
+        ], 
+        "Logic" : "and"
+    }, 
+    "Lock" : null
+}
+{ 
+    "_id" : ObjectId("5b75061b0d43210538c779b9"), 
+    "LayoutID" : NumberInt(6), 
+    "UserID" : "SystemUser", 
+    "ApplicationName" : "ActivityMonitor", 
+    "LayoutName" : "Supply View", 
+    "LayoutConfigs" : [
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(3), 
+            "ColumnName" : "TLM Ship Date", 
+            "FieldName" : "parentEquipmentRequest.tlmShipDate", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(1), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(1), 
+            "ColumnName" : "TCO Number", 
+            "FieldName" : "parentEquipmentRequest.TCONumber", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(2), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(2), 
+            "ColumnName" : "Job Number", 
+            "FieldName" : "parentEquipmentRequest.job.jobNumber", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(3), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(6), 
+            "ColumnName" : "Priority", 
+            "FieldName" : "parentEquipmentRequest.Priority.value", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(4), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(7), 
+            "ColumnName" : "Tool Name", 
+            "FieldName" : "name", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(5), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(118), 
+            "ColumnName" : "EDO Tool Status", 
+            "FieldName" : "status", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(6), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(258), 
+            "ColumnName" : "Client", 
+            "FieldName" : "parentEquipmentRequest.job.client", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(7), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(262), 
+            "ColumnName" : "Rig", 
+            "FieldName" : "parentEquipmentRequest.job.rig", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(8), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(266), 
+            "ColumnName" : "Well", 
+            "FieldName" : "parentEquipmentRequest.job.well", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(9), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(109), 
+            "ColumnName" : "Version", 
+            "FieldName" : "parentEquipmentRequest.version", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(10), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(112), 
+            "ColumnName" : "TCO Last Updated", 
+            "FieldName" : "parentEquipmentRequest.modifiedDate", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(11), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(176), 
+            "ColumnName" : "TCO Comments", 
+            "FieldName" : "parentEquipmentRequest.comments", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(12), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(193), 
+            "ColumnName" : "Shipping Instructions", 
+            "FieldName" : "parentEquipmentRequest.ShippingInstructions.value", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(13), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(211), 
+            "ColumnName" : "Maintenance & Operations", 
+            "FieldName" : "parentEquipmentRequest.MaintenanceOperations.value", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(14), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : true, 
+            "disabled" : true, 
+            "ColumnId" : NumberInt(5), 
+            "ColumnName" : "Next Ship Date", 
+            "FieldName" : "nextMovementDate", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(15), 
+            "ToolTip" : "This column cannot be removed."
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(248), 
+            "ColumnName" : "Product Line", 
+            "FieldName" : "requestedEquipmentProductLine", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(16), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(283), 
+            "ColumnName" : "Product Line Status", 
+            "FieldName" : "ProductLineStatus", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(17), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(254), 
+            "ColumnName" : "Product Group", 
+            "FieldName" : "requestedEquipmentBrand", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(18), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(299), 
+            "ColumnName" : "Product Group Status", 
+            "FieldName" : "ProductGroupStatus", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(19), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }, 
+        {
+            "LayoutName" : "Supply View", 
+            "IsDefault" : false, 
+            "disabled" : false, 
+            "ColumnId" : NumberInt(242), 
+            "ColumnName" : "TCO Report", 
+            "FieldName" : "TCO_Report", 
+            "IsLocked" : false, 
+            "Sequence" : NumberInt(20), 
+            "ToolTip" : "Are you sure you want to remove this column?"
+        }
+    ], 
+    "Sort" : [
+        {
+            "dir" : "asc", 
+            "field" : "parentEquipmentRequest.tlmShipDate"
+        }
+    ], 
+    "Group" : [
+        {
+            "dir" : "asc", 
+            "field" : "nextMovementDate"
+        }, 
+        {
+            "dir" : "asc", 
+            "field" : "parentEquipmentRequest.TCONumber"
+        }, 
+        {
+            "dir" : "asc", 
+            "field" : "requestedEquipmentProductLine"
+        }, 
+        {
+            "dir" : "asc", 
+            "field" : "name"
+        }
+    ], 
+    "Filter" : {
+        "Filters" : [
+            {
+                "Field" : null, 
+                "Operator" : null, 
+                "Value" : null, 
+                "Filters" : [
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Accepted", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Cancelled", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Modified", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Redirected", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Rejected", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Released", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Shipped", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Submitted", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }, 
+                    {
+                        "Field" : "status", 
+                        "Operator" : "eq", 
+                        "Value" : "Voided", 
+                        "Filters" : null, 
+                        "Logic" : null
+                    }
+                ], 
+                "Logic" : "or"
+            }
+        ], 
+        "Logic" : "and"
+    }, 
+    "Lock" : null
+}

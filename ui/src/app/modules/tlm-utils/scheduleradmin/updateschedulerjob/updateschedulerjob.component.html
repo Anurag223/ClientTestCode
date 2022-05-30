@@ -1,0 +1,116 @@
+
+<div id="updateschedulerjobContainer">
+    <div class="table" style="border: none;">
+   <tr>
+    <td *ngIf="schedulerjobData.action=='Update'">
+      <label >Id:</label>
+        <input readonly [(ngModel)]="schedulerjobData.id" #id style="size: 500px;">    
+      </td>
+      <td>
+      <label >Name:</label><label style="color: red;">*</label>
+        <input [(ngModel)]="schedulerjobData.jobContext.name" #name placeholder="Name" style="size: 500px;">    
+      </td>
+    </tr>
+   <tr>
+      <td>
+        <label >Version:</label>
+          <input [(ngModel)]="schedulerjobData.jobContext.version" #version placeholder="Version"/>
+      </td>
+    <td>
+      <label>Cmms:</label>
+        <select [(ngModel)]="schedulerjobData.jobContext.cmms" #cmms>
+          <option value="None">None</option>
+          <option value="RITE" >RITE</option>
+          <option value="QTrac" >QTrac</option>
+          <option value="Maximo">Maximo</option>
+          <option value="SAP" >SAP</option>
+          <option value="MT" >MT</option>
+          <option value="Mateo" >Mateo</option>
+        </select>
+    </td>
+    </tr>
+   <tr>
+      <td>
+        <label >Cmms Throttle:</label>
+          <input [(ngModel)]="schedulerjobData.jobContext.cmmsThrottle" #cmmsThrottle placeholder="Cmms Throttle"/>
+      </td>
+    <td>
+      <label >Context:</label>
+        <input type="text" #context placeholder="Context"/>
+    </td>
+    </tr>
+       <tr>
+      <td>
+        <label>Sites:</label><label style="color: red;">*</label>
+          <textarea [(ngModel)]="schedulerjobData.jobContext.sites" #sites placeholder="Sites"></textarea>
+      </td>
+      <td>
+        <label>Is Incremental:</label><label style="color: red;">*</label>
+          <select [(ngModel)]="schedulerjobData.jobContext.isIncremental" #isIncremental>
+            <option value="">Select</option>
+            <option value=true>true</option>
+            <option value=false>false</option>
+          </select>
+      </td>
+      </tr>
+       <tr>
+      <td>
+      <label >Strategy:</label><label style="color: red;">*</label>
+          <select [(ngModel)]="schedulerjobData.jobContext.strategy" #strategy>
+            <option value="">Select</option>
+            <option value="SiteBySite">SiteBySite</option>
+            <option value="Multisite">MultiSite</option>
+          </select>
+    </td>
+    <td>
+      <label >Cron:</label><label style="color: red;">*</label>
+        <input [(ngModel)]="schedulerjobData.jobContext.cron" #cron placeholder="Cron"/>
+    </td>
+  </tr>
+   <tr>
+    <td>
+      <label >Cron Description:</label>
+        <input [(ngModel)]="schedulerjobData.jobContext.cronDescription" #cronDescription placeholder="Cron Description"/>
+    </td>
+    <td>
+      <label >Description:</label>
+        <input [(ngModel)]="schedulerjobData.jobContext.description" #description placeholder="Description"/>
+    </td>
+  </tr>
+   <tr>
+    <td>
+      <label >Domain Type:</label>
+        <input [(ngModel)]="schedulerjobData.jobContext.domainType" #domainType placeholder="Domain Type"/>
+    </td>
+    <td>
+      <label >Force Replace:</label><label style="color: red;">*</label>
+        <select [(ngModel)]="schedulerjobData.jobContext.forceReplace" #forceReplace>
+          <option value="">Select</option>
+          <option value=true>true</option>
+          <option value=false>false</option>
+        </select>
+    </td>
+  </tr>
+   <tr>
+    <td>
+      <label >Group:</label><label style="color: red;">*</label>
+        <input [(ngModel)]="schedulerjobData.jobContext.group" #group placeholder="Group"/>
+    </td>
+    <td>
+      <label >Job Type:</label>
+        <input [(ngModel)]="schedulerjobData.jobContext.jobType" #jobType placeholder="Job Type"/>
+    </td>
+  </tr>
+   <tr>
+    <td>
+    <button *ngIf="schedulerjobData.action=='Copy'" class="fmp-button-primary" (click)="createJob(schedulerjobData)">Save</button>
+    <button *ngIf="schedulerjobData.action=='Update'" class="fmp-button-primary" (click)="updateJob(schedulerjobData)">Update</button>
+    
+    </td>
+  <td>
+    <button class="fmp-button-primary" (click)="cancel()">Cancel</button>
+  </td>
+  </tr>
+  </div> 
+  </div>    
+  

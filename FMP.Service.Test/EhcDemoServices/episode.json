@@ -1,0 +1,52 @@
+{
+  "id": "5dfd0d01c2236e0001022831",
+  "createdDate": "2019-12-20T18:03:45.646+00:00",
+  "createdBy": "TLM",
+  "modifiedDate": "2019-12-20T18:03:45.646+00:00",
+  "modifiedBy": "TLM",
+  "name": "Drilling Activity 1",
+  "startTime": "2019-04-04T20:15:00-05:00",
+  "endTime": "2019-04-04T20:23:15-05:00",
+  "type": "standard",
+  "tags": [
+    "demo",
+    "coring"
+  ],
+  "equipmentIds": [
+    "101222319:522"
+  ],
+  "relationships": {
+    "well": {
+      "links": {
+        "cost_center": {
+          "href": "http://cost-center.com/3087",
+          "rel": "cost_center"
+        },
+        "fmp": {
+          "href": "http://fed.demo.tlm.slb.com/api/v2/equipment/5df29b9f2b6ed90001142483",
+          "rel": "FMP"
+        }
+      },
+      "data": {
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W"
+      }
+    },
+    "operator": {
+      "links": {
+        "profile": {
+          "href": "https://employees.com/id/12345",
+          "rel": "profile"
+        },
+        "membership": {
+          "href": "https://groups.com/member/12345",
+          "rel": "membership"
+        }
+      },
+      "data": {
+        "access": "full",
+        "gin": "541125"
+      }
+    }
+  }
+}

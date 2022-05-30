@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  tlm-utils-api:
+    image: tlm-utils-api
+    hostname: tlm-utils-api
+    container_name: tlm-utils-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    build:
+      context: .
+      dockerfile: FMP.API/Dockerfile
+    ports:
+      - '32211:80'
+    networks:
+      - bin_apptier
+    volumes:
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+    depends_on:
+      - mongo
+  
+  mongo:
+    image: "mongo:4-xenial"
+    container_name: tlm-utils-api.mongo
+ #   command: [--auth]
+    hostname: tlm-utils-api.mongo
+    networks:
+      - bin_apptier
+    ports:
+      - "27030:27017"  
+    volumes:
+      - tlm-utils-api.mongo.data:/data/db
+
+volumes:
+    tlm-utils-api.mongo.data:
+      driver: local
+
+networks:
+  bin_apptier:
+    driver: bridge

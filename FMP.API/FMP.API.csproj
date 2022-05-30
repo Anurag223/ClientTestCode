@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+     <DebugType>full</DebugType>
+     <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+	  <ProjectGuid>{d4b341fc-ae33-4e8f-ad9d-f778abc8501d}</ProjectGuid>
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>FMP.API</AssemblyName>
+    <UserSecretsId>0723d3aa-f3c0-4f44-b561-eeb58221b403</UserSecretsId> 
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Remove="TLM-Utils-UI_API_20190806.txt" />
+    <None Remove="TLM-Utils-UI_API_20190816.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="2.2.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.OpenIdConnectServer" Version="2.2.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="2.2.3" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.6.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.HealthChecks" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="mongocsharpdriver" Version="2.10.0" />
+    <PackageReference Include="morelinq" Version="3.3.2" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMP.Common\FMP.Common.csproj" />
+    <ProjectReference Include="..\FMP.Services\FMP.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\swagger\css\custom-style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

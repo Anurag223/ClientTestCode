@@ -1,0 +1,18 @@
+{ 
+    "_id" : ObjectId("5bffa9f930be87e5f0ec2f98"), 
+    "ID" : NumberInt(1), 
+    "Code" : "AM_Add", 
+    "Description" : "Add Authority"
+}
+{ 
+    "_id" : ObjectId("5bffaa0430be87e5f0ec2f99"), 
+    "ID" : NumberInt(2), 
+    "Code" : "AM_Edit", 
+    "Description" : "Edit Authority"
+}
+{ 
+    "_id" : ObjectId("5bffaa0930be87e5f0ec2f9a"), 
+    "ID" : NumberInt(3), 
+    "Code" : "AM_View", 
+    "Description" : "View Authority"
+}

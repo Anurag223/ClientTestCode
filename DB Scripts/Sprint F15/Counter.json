@@ -1,0 +1,9 @@
+[
+    {
+        "_id": ObjectId("5bee8da1f491726330a05e9a"),
+        "ID": NumberInt(1),
+        "SiteCounter": NumberInt(5),
+        "WorkStationCounter": NumberInt(6),
+        "SchedulerCounter": NumberInt(1)
+    }
+]

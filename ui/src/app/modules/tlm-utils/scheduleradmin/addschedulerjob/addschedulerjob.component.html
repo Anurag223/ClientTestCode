@@ -1,0 +1,111 @@
+
+<div id="addschedulerjobContainer">
+  <div class="table" style="border: none;">
+ <tr>
+    <td>
+    <label >Name:</label><label style="color: red;">*</label>
+      <input #name placeholder="Name" style="size: 500px;">    
+    </td>
+  </tr>
+ <tr>
+    <td>
+      <label >Version:</label>
+        <input #version placeholder="Version"/>
+    </td>
+  <td>
+    <label>Cmms:</label>
+      <select #cmms>
+        <option value="None">None</option>
+        <option value="RITE" >RITE</option>
+        <option value="QTrac" >QTrac</option>
+        <option value="Maximo">Maximo</option>
+        <option value="SAP" >SAP</option>
+        <option value="MT" >MT</option>
+        <option value="Mateo" >Mateo</option>
+      </select>
+  </td>
+  </tr>
+ <tr>
+    <td>
+      <label >Cmms Throttle:</label>
+        <input #cmmsThrottle placeholder="Cmms Throttle"/>
+    </td>
+  <td>
+    <label >Context:</label>
+      <input #context placeholder="Context"/>
+  </td>
+  </tr>
+     <tr>
+    <td>
+      <label>Sites:</label><label style="color: red;">*</label>
+        <textarea #sites placeholder="Sites"></textarea>
+    </td>
+    <td>
+      <label>Is Incremental:</label><label style="color: red;">*</label>
+        <select #isIncremental>
+          <option value="">Select</option>
+          <option value=true>true</option>
+          <option value=false>false</option>
+        </select>
+    </td>
+    </tr>
+     <tr>
+    <td>
+    <label >Strategy:</label><label style="color: red;">*</label>
+        <select #strategy>
+          <option value="">Select</option>
+          <option value="SiteBySite">SiteBySite</option>
+          <option value="Multisite">MultiSite</option>
+        </select>
+  </td>
+  <td>
+    <label >Cron:</label><label style="color: red;">*</label>
+      <input #cron placeholder="Cron"/>
+  </td>
+</tr>
+ <tr>
+  <td>
+    <label >Cron Description:</label>
+      <input #cronDescription placeholder="Cron Description"/>
+  </td>
+  <td>
+    <label >Description:</label>
+      <input #description placeholder="Description"/>
+  </td>
+</tr>
+ <tr>
+  <td>
+    <label >Domain Type:</label>
+      <input #domainType placeholder="Domain Type"/>
+  </td>
+  <td>
+    <label >Force Replace:</label><label style="color: red;">*</label>
+      <select #forceReplace>
+        <option value="">Select</option>
+        <option value=true>true</option>
+        <option value=false>false</option>
+      </select>
+  </td>
+</tr>
+ <tr>
+  <td>
+    <label >Group:</label><label style="color: red;">*</label>
+      <input #group placeholder="Group"/>
+  </td>
+  <td>
+    <label >Job Type:</label>
+      <input #jobType placeholder="Job Type"/>
+  </td>
+</tr>
+ <tr>
+  <td>
+  <button class="fmp-button-primary" (click)="createJob(cmms.value,cmmsThrottle.value, context.value,isIncremental.value,
+                sites.value, strategy.value,cron.value, cronDescription.value, description.value, domainType.value,forceReplace.value,group.value,jobType.value,
+                name.value, version.value)">Save</button>
+  </td>
+<td>
+  <button class="fmp-button-primary" (click)="cancel()">Cancel</button>
+</td>
+</tr>
+</div> 
+</div>    

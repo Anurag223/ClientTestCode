@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FMP.Model", "FMP.Model\FMP.Model.csproj", "{CF42E995-0ED7-45B5-8FE4-D2465284192F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FMP.Service", "FMP.Services\FMP.Service.csproj", "{AF3D4C7F-8B7C-4310-8BC4-E7AE1939578F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FMP.Repository", "FMP.Repository\FMP.Repository.csproj", "{2A4F2988-43A8-498D-A7D6-B36514D3D650}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FMP.API", "FMP.API\FMP.API.csproj", "{D4B341FC-AE33-4E8F-AD9D-F778ABC8501D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FMP.Common", "FMP.Common\FMP.Common.csproj", "{E1F69A7A-A45F-4BC0-ABC4-B3E6D89C6CCC}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{15322A67-79AA-4EA5-84A1-15AC8B353B46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FMP.Service.Test", "FMP.Service.Test\FMP.Service.Test.csproj", "{F6742EBD-65B8-4776-B0A4-28BB3AFA9F7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FMP.Service.Integration.Test", "FMP.Service.Integration.Test\FMP.Service.Integration.Test.csproj", "{04D03AA0-05FD-4473-B80C-2737D5A95B8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FMP.Repository.Test", "FMP.Repository.Test\FMP.Repository.Test.csproj", "{582520DA-2ECA-4481-A788-C6264A5F4A2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FMP.API.Tests", "FMP.API.Tests\FMP.API.Tests.csproj", "{3CB413F8-A8C5-441D-9ED0-2C1B1B62FB8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E4906FE-33A0-416D-AEEE-2A12F6FF2486}"
+	ProjectSection(SolutionItems) = preProject
+		nginx\demo.conf = nginx\demo.conf
+		nginx\dev.conf = nginx\dev.conf
+		nginx\Dockerfile = nginx\Dockerfile
+		nginx\local.conf = nginx\local.conf
+		nginx\prod.conf = nginx\prod.conf
+		nginx\qa.conf = nginx\qa.conf
+		nginx\timeout.conf = nginx\timeout.conf
+		nginx\conf.d\tlm-utils.conf = nginx\conf.d\tlm-utils.conf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF42E995-0ED7-45B5-8FE4-D2465284192F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF42E995-0ED7-45B5-8FE4-D2465284192F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF42E995-0ED7-45B5-8FE4-D2465284192F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF42E995-0ED7-45B5-8FE4-D2465284192F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3D4C7F-8B7C-4310-8BC4-E7AE1939578F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3D4C7F-8B7C-4310-8BC4-E7AE1939578F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3D4C7F-8B7C-4310-8BC4-E7AE1939578F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3D4C7F-8B7C-4310-8BC4-E7AE1939578F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4F2988-43A8-498D-A7D6-B36514D3D650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4F2988-43A8-498D-A7D6-B36514D3D650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4F2988-43A8-498D-A7D6-B36514D3D650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4F2988-43A8-498D-A7D6-B36514D3D650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B341FC-AE33-4E8F-AD9D-F778ABC8501D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B341FC-AE33-4E8F-AD9D-F778ABC8501D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B341FC-AE33-4E8F-AD9D-F778ABC8501D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B341FC-AE33-4E8F-AD9D-F778ABC8501D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F69A7A-A45F-4BC0-ABC4-B3E6D89C6CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F69A7A-A45F-4BC0-ABC4-B3E6D89C6CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F69A7A-A45F-4BC0-ABC4-B3E6D89C6CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F69A7A-A45F-4BC0-ABC4-B3E6D89C6CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15322A67-79AA-4EA5-84A1-15AC8B353B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15322A67-79AA-4EA5-84A1-15AC8B353B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15322A67-79AA-4EA5-84A1-15AC8B353B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15322A67-79AA-4EA5-84A1-15AC8B353B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6742EBD-65B8-4776-B0A4-28BB3AFA9F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6742EBD-65B8-4776-B0A4-28BB3AFA9F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6742EBD-65B8-4776-B0A4-28BB3AFA9F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6742EBD-65B8-4776-B0A4-28BB3AFA9F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D03AA0-05FD-4473-B80C-2737D5A95B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D03AA0-05FD-4473-B80C-2737D5A95B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D03AA0-05FD-4473-B80C-2737D5A95B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D03AA0-05FD-4473-B80C-2737D5A95B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582520DA-2ECA-4481-A788-C6264A5F4A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582520DA-2ECA-4481-A788-C6264A5F4A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582520DA-2ECA-4481-A788-C6264A5F4A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582520DA-2ECA-4481-A788-C6264A5F4A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB413F8-A8C5-441D-9ED0-2C1B1B62FB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB413F8-A8C5-441D-9ED0-2C1B1B62FB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB413F8-A8C5-441D-9ED0-2C1B1B62FB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB413F8-A8C5-441D-9ED0-2C1B1B62FB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FEB9F34-9628-40B7-B94A-3BDFB4D0907D}
+	EndGlobalSection
+EndGlobal

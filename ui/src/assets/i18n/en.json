@@ -1,0 +1,454 @@
+{
+  "HOME": {
+    "EAM": "EAM",
+    "DASH": "Dashboard",
+    "PLAN": "Planning",
+    "SOURCING": "Sourcing",
+    "ACTIVITY_MONITOR": "Activity Monitor",
+    "ACTIVITYMONITOR": "Activity Monitor",
+    "DEVELOPER": "Developer Dashboard",
+    "INVENTORY": "Plan & Schedule",
+    "PERSONNEL": "Scheduling",
+    "PLANNING_AND_SCHEDULING": "Plan",
+    "TESTING": "Test Area",
+    "WORKCENTER": "Admin",
+    "REPORTS": "Reporting",
+    "SORT_BY": "Sort by :",
+    "FILTERS": "Filters",
+    "SEARCH_FIELD_PLACEHOLDER": "Search Job or Work Order",
+    "EDO_DETAILS": "EDO Details",
+    "JOB_WELL_ATTRIBUTES": "Job/Well Attributes",
+    "EQUIPMENT_ATTRIBUTES": "Equipment Attributes",
+    "BUILD_AND_INSPECTION": "Build & Inspection",
+    "ORDER_NUMBER": "Order Number",
+    "SERVICE_PRODUCT": "Service Product",
+    "FINISH_DATE": "Finish Date",
+    "REQUESTING_LOCATION": "Requesting Location",
+    "REQUIRED_DATE": "Required Date",
+    "EDO_USER_STATUS": "EDO User Status",
+    "FULLFILLMENT_LOCATION": "Fullfillment Location",
+    "EDOCREATIONDATE": "EDO Creation Date",
+    "PR_PO_NUMBER": "PR/PO Number",
+    "FILTER": "FILTER",
+    "ADMINISTRATION": "Administration",
+    "USER_ROLES": "User Roles",
+    "EPIC_BROWSER": "Epic Browser",
+    "DATA_MAPPING": "Mapping Utils",
+    "PLANNING_SORT_OPTIONS": [
+      "Job Number",
+      "Rig Name",
+      "Client",
+      "Serial Number",
+      "Equipment Type",
+      "Order Priority",
+      "Job Status",
+      "Order Status",
+      "Date",
+      "Operation Location",
+      "Job",
+      "Order Type"
+    ]
+  },
+  "USER": {
+    "PREFERENCES": {
+      "UOM": {
+        "TEMPRATURE": {
+          "DEFAULT": "(K)",
+          "METRIC": "(<sup>o</sup>C)",
+          "IMPERIAL": "(<sup>o</sup>F)",
+          "SI": "(K)"
+        },
+        "PRESSURE": {
+          "DEFAULT": "(ATM)",
+          "METRIC": "(BAR)",
+          "IMPERIAL": "(PSI)",
+          "SI": "(PA)"
+        }
+      }
+    }
+  },
+  "COMMON": {
+    "SET": "SET",
+    "CANCEL": "CANCEL",
+    "SEARCH": "Search",
+    "RESET": "Reset",
+    "SELECT": "Select",
+    "ACTIVITY": "Activity",
+    "DATE_UPDATED": "Date Updated",
+    "TIMEZONE": "TIMEZONE",
+    "RESULTS_FOR": "RESULTS FOR",
+    "EXPORT": "Export",
+    "UPDATE_NOW": "Update Now",
+    "EXPAND_ALL": "Expand All",
+    "COLLAPSE_ALL": "Collapse All",
+    "EXPAND_ONE_LEVEL": "Expand One Level",
+    "COLLAPSE_ONE_LEVEL": "Collapse One Level",
+    "DASHBOARD_PAGE": "This is the Dashboard page!",
+    "SAVE": "SAVE"
+  },
+  "APPLICATIONCOMMON": {
+    "AUTOLOGIN": {
+      "NAVLABEL": "Auto-Login",
+      "HEADER": "Welcome to FMP",
+      "MESSAGE": "Please wait while you are being logged in."
+    },
+    "HOME": {
+      "NAVLABEL": "Home",
+      "HEADER": "Welcome to FMP",
+      "MESSAGE": "Please wait while we redirect you."
+    },
+    "ERRORPAGES": {
+      "FMPERROR": {
+        "NAVLABEL": "FMP Error",
+        "HEADER": "Application Error",
+        "MESSAGE": "Oops! An error has occured."
+      },
+      "FORBIDDEN": {
+        "NAVLABEL": "Forbidden Error",
+        "HEADER": "Forbidden Error",
+        "MESSAGE": "Authorization has forbidden you from accessing this page."
+      },
+      "NOTFOUND": {
+        "NAVLABEL": "NotFound Error",
+        "HEADER": "Page Not Found Error",
+        "MESSAGE": "Requested page was not found."
+      },
+      "UNAUTHORIZED": {
+        "NAVLABEL": "Authorization Error",
+        "HEADER": "Un-Authorized Error",
+        "MESSAGE": "You are not authorized to view this page."
+      }
+    },
+    "LOGOUT": {
+      "NAVLABEL": "Logout",
+      "HEADER": "Logged Out",
+      "MESSAGE": "You are being logged out of the application."
+    },
+    "USERPREFERENCE": {
+      "PREFERENCELINK": "User Preferences",
+      "LOGOUT": "LOG OUT",
+      "POPUP": {
+        "HEADERTEXT": "User Preferences",
+        "TIMEZONELABEL": "TIMEZONE - LOCAL",
+        "UNITSYSTEMLABEL": "UNIT SYSTEM"
+      }
+    }
+  },
+  "ACTIVITYSEARCH": {
+    "NEXT_PLANNED_SHIP_DATE": "Next Planned Ship Date",
+    "RESET": "Reset",
+    "LAST_UPDATED_DATE": "Last Updated Date",
+    "TCO": "TCO",
+    "PRODUCT_LINE": "Product Line",
+    "PRODUCT_GROUP": "Product Group",
+    "TOOL_NAME": "Tool Name",
+    "OUT_OF_SPECS": "Out Of Specs",
+    "CLIENT": "Client",
+    "JOB": "Job",
+    "TCO_STATUS": "TCO Status",
+    "JOB_NAME": "Job Name",
+    "WELL": "Well",
+    "RIG": "Rig",
+    "PRIORITY": "Priority",
+    "FSM_DD": "FSM DD",
+    "FSM_MWD": "FSM MWD",
+    "SDM_CELL_NAME": "SDM Cell Name",
+    "FROMDATE": "From",
+    "TODATE": "To"
+  },
+  "ACTIVITYGRID": {
+    "PLANNED_SHIP_DATE": "Planned Ship Date",
+    "TLM_SHIP_DATE": "TLM Ship Date",
+    "PRIORITY": "Priority",
+    "TCO_NUMBER": "TCO Number",
+    "TCO_LAST_UPDATED": "TCO Last Updated",
+    "JOB_NUMBER": "Job Number",
+    "CLENT": "Client",
+    "WELL": "Well",
+    "RIG": "Rig",
+    "TOOL_NAME": "Tool Name",
+    "EDO_TOOL_STATUS": "EDO Tool Status",
+    "EDO_TOOL_ASSIGNED": "EDO Tool Assigned",
+    "PRODUCT_LINE": "Product Line",
+    "PRODUCT_GROUP": "Product Group",
+    "HIGH_TEMP": "High Temp",
+    "HIGH_PRESSURE": "High Pressure",
+    "HIGH_DOGLEG": "High Dogleg",
+    "CORROSIVE_ENV": "Corrosive Environment",
+    "HIGH_SHOCK": "High Shock",
+    "NEXT_SHIP_DATE": "Next Ship Date",
+    "CONFIGURATION": "Configuration",
+    "PCV": "PCV",
+    "EQUIPMENT_AVL": "Equipment Availability",
+    "TCO_STATTUS": "TCO Status",
+    "TLM_SITE": "TLM Site",
+    "TLM_ACT_SHIP_DATE": "TLM Actual Ship Date",
+    "TCO_COMMENTS": "TCO Comments",
+    "TCO_REPORTS": "TCO Report",
+    "SHIPING_INSTRUCTIONS": "Shipping Instructions",
+    "MAINTENANCE_OPRATIONS": "Maintenance & Operations",
+    "PRODUCT_GROUP_STATUS": "Product Group Status",
+    "PRODUCT_LINE_STATUS": "Product Line Status",
+    "BUSINESS_SITE": "Business Site",
+    "SHIPMENT_NUMBER": "Shipment Number",
+    "MOVEMENT_TYPE": "Movement Type",
+    "HISTORY": "History",
+    "REDIRECTED_TO": "Redirect To",
+    "REDIRECTED_TYPE": "Request Type",
+    "CONFIGURATION_COMPLIACE": "Configuration Compliance",
+    "MAX_BH_PRE": "Max BH Pressure",
+    "REDIRECTED_FROM": "Redirect From",
+    "TRO": "TRO",
+    "VERSION": "Version",
+    "MAX_BH_STATIC_TEMP": "Max BH Static Temp",
+    "MAX_BH_CIRC_TEMP": "Max BH Circ Temp",
+    "FSM_DD": "FSM DD",
+    "FSM_MWD": "FSM MWD",
+    "SDM_CELL_NAME": "SDM Cell Name",
+    "FSM_DE": "FSM DE",
+    "JOB_STATUS": "Job Status",
+    "MANAGE_VIEWS": "Manage Grid Views",
+    "EDO_COMMENTS": "EDO Comments",
+    "EDO_PRIORITY": "EDO Priority",
+    "PROGRESS_BAR": "Loading results for Site {{completed}} of {{total}}.",
+    "TCO_PRE_SHIPPING_MANIFEST": "PreShipping Manifest"
+  },
+
+  "UPDATE": {
+    "UPDATE_120": "Update every 120 min",
+    "UPDATE_60": "Update every 60 min",
+    "UPDATE_30": "Update every 30 min",
+    "UPDATE_15": "Update every 15 min",
+    "UPDATE_5": "Update every 5 min",
+    "NO_UPDATE": "Do Not Update"
+  },
+  "CONTEXTHELP": {
+    "ICONLABEL": "Help",
+    "CONTEXTHELPWIKILINK": "View on FMP Wiki -",
+    "CONTEXTHELPVIDEOLINK": "FMP Quick Help 365 Video channel - ",
+    "SEARCHCOMPONENT": {
+      "SAVEDSEARCH": {
+        "HEADER": "Saved Search",
+        "BODY": "Saved Search Body Text"
+      },
+      "RESULTFOR": {
+        "HEADER": "Result for",
+        "BODY": "Result for Body Text"
+      },
+      "EQUIPMENTSEARCHPANEL": {
+        "HEADER": "Equipment Search Panel",
+        "BODY": "Equipment Search Panel Body Text"
+      },
+      "COLUMNOPTIONSDATA": {
+        "HEADER": "Column Option",
+        "BODY": "<div><ul><li class='contextTooltipBullets'>Add New Link: Opens the text box to name the new template created on the currently selected one.</li><li class='contextTooltipBullets'>Text Box: Type in the name of your new view to be created</li><li class='contextToolTipIcon contextualGripperDiv'> <span class='dls-icon contextToolTipGripperOne dls-iconDrag' style='margin:4px;'></span><span class='dls-icon contextToolTipGripperTwo dls-iconDrag' style='margin:4px;'></span><span class='contextToolTipSpan'>The gripper icon: It is used to rearrange the position of a column on the data grid.</span></li><li class='contextToolTipIcon'> <span class='dls-icon contextToolTipSpan dls-iconUnlocked' style='margin:4px;'></span><span class='contextToolTipSpan'>The lock icon: It can be toggled to fix or unfix (unlock) the position of a column on the grid. Locked columns move to the left of the grid by default.</span></li><li class='contextToolTipIcon'> <span class='dls-icon contextToolTipSpan dls-iconClose' style='margin:4px;'></span><span class='contextToolTipSpan'>Delete Column Button: The red ‘X’ icon removes the corresponding column from the view.</span></li><li class='contextToolTipIcon'> <span class='dls-icon contextToolTipSpan dls-iconPlus' style='margin:4px;'></span> <span class='contextToolTipSpan'>Add Column Button: A text box appears upon clicking here where you can either enter a column name or select one from the menu that appears.</span></li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Layout+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      }
+    },
+    "ACTIVITYMONITOR": {
+      "SAVESEARCH": {
+        "HEADER": "Saved Search",
+        "BODY": "<div><ul><li class='contextTooltipBullets'>Instead of repeatedly entering the above criteria, frequently applied searches can be saved under this section. Enter a name to save your custom search in the text field provided.</li><li class='contextTooltipBullets'>Reset: clears the search criteria fields</li><li class='contextTooltipBullets'>Search: on clicking upon this button, the applied search criteria takes into effect and displays the respective result on the grid.</li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Search+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "SEARCHFUNCTIONALITY": {
+        "HEADER": "Search Functionality",
+        "BODY": "<div><ul><li class='contextTooltipBullets'>From: The starting date (Qtrac Last Updated By Date, visible on Status Board & Shipping Monitor) for your search</li><li class='contextTooltipBullets'>To: The end date (Qtrac Last Updated By Date) for your search</li><li class='contextTooltipBullets'>TCO: A multi-select drop-down to choose specific TCO#s</li><li class='contextTooltipBullets'>Job: A multi-select drop-down to choose specific Job#s</li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Search+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "LAYOUTDROPDOWN": {
+        "HEADER": "Layout Drop-down",
+        "BODY": "<div><ul><li class='contextToolTipIcon'><span class='dls-icon contextToolTipSpan dls-iconArrowDown2' style='margin:4px;'></span><span class='contextToolTipSpan'>Layout Chooser: Change your current layout from the drop-down list by clicking here and selecting the layout name.</span></li><li class='contextToolTipIcon'><span class='dls-icon contextToolTipSpan dls-iconPlus' style='margin:4px;'></span><span class='contextToolTipSpan'> Manage Grid Views: To alter the current layout or to create a new one click on Manage Grid Views.</span></li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Layout+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "COLUMNOPTIONSDATA": {
+        "HEADER": "Column Option Scroll",
+        "BODY": "<div><ul><li class='contextTooltipBullets'>Add New Link: Opens the text box to name the new template created on the currently selected one.</li><li class='contextTooltipBullets'>Text Box: Type in the name of your new view to be created</li><li class='contextToolTipIcon contextualGripperDiv'> <span class='dls-icon contextToolTipGripperOne dls-iconDrag' style='margin:4px;'></span><span class='dls-icon contextToolTipGripperTwo dls-iconDrag' style='margin:4px;'></span><span class='contextToolTipSpan'>The gripper icon: It is used to rearrange the position of a column on the data grid.</span></li><li class='contextToolTipIcon'> <span class='dls-icon contextToolTipSpan dls-iconUnlocked' style='margin:4px;'></span><span class='contextToolTipSpan'>The lock icon: It can be toggled to fix or unfix (unlock) the position of a column on the grid. Locked columns move to the left of the grid by default.</span></li><li class='contextToolTipIcon'> <span class='dls-icon contextToolTipSpan dls-iconClose' style='margin:4px;'></span><span class='contextToolTipSpan'>Delete Column Button: The red ‘X’ icon removes the corresponding column from the view.</span></li><li class='contextToolTipIcon'> <span class='dls-icon contextToolTipSpan dls-iconPlus' style='margin:4px;'></span> <span class='contextToolTipSpan'>Add Column Button: A text box appears upon clicking here where you can either enter a column name or select one from the menu that appears.</span></li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Layout+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "GROUPING": {
+        "HEADER": "Grouping",
+        "BODY": "<div><ul><li class='contextTooltipBullets'>To group data based on a particular column in the grid, drag the column name and place it on the grouping header which is highlighted by the tooltip.</li><li class='contextTooltipBullets'>Once the column name appears inside a white elliptical box with a blue outline here, the grid data is grouped on its basis.</li><li class='contextTooltipBullets'>To remove any grouping, click on the X icon in the elliptical box.</li><li class='contextTooltipBullets'>To rearrange the grouping hierarchy, drag and place the elliptical box of the required column.</li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Grouping",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "SORTING": {
+        "HEADER": "Sorting",
+        "BODY": "<div><ul><li class='contextTooltipBullets'>Grid Data can be sorted at two levels:</li><ul><li>a. <span style='text-decoration: underline;'>Column Level:<span> applies to columns that are not grouped. Click on Select the column name to toggle the type of sort or to remove it. If sorted, one of the following icons will appear next to the column name:</li><li class='contextToolTipIcon'><span class='dls-icon contextToolTipSpan dls-icon dls-iconUpward'></span><span class='contextToolTipSpan'>: Ascending Order Ascending Order</span></li></span></li><li class='contextToolTipIcon'><span class='dls-icon contextToolTipSpan dls-icon dls-iconDownward'></span><span class='contextToolTipSpan'>: Descending Order</span></li></span></li><li class='contextToolTipIcon'><span class='dls-icon contextToolTipSpan dls-iconUpward'></span><span class='contextToolTipSpan'> or <span class='dls-icon contextToolTipSpan dls-iconDownward'></span><span class='contextToolTipSpan'>: where n is a number representing the order of sorting in case sorting is applied on multiple columns</span></li></span></li>      <li>b. <span style='text-decoration: underline;'>Group Level:<span> By default, ascending order is applied to grouped columns. This can be toggled but NOT REMOVED by clicking on the elliptically boxed column name.</span></li></ul></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Sorting",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "FILTERING": {
+        "HEADER": "Filtering",
+        "BODY": "<div><ul><li class='contextTooltipBullets'>Type in the white space or select it to trigger filtering options.</li><li class='contextTooltipBullets'>Depending on the column, the type of filter can be one of the following:</li><ul><li>a. Multi Select: indicated by a blank space with no icon</li><li>b. Date filter: indicated by a calendar icon<span class='dls-icon contextToolTipSpan dls-icon dls-iconCalendar'></span><span class='contextToolTipSpan'></span></li><li>c. Boolean Filter: indicated by an (All) option with icon<span class='dls-icon contextToolTipSpan dls-icon dls-iconArrowDown2'></span><span class='contextToolTipSpan'></span></li><li>d. Default filter: indicated by the funnel icon<span class='dls-icon contextToolTipSpan dls-icon dls-icon dls-iconFilter1'></span><span class='contextToolTipSpan'></span></li></ul></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Filter+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "TEMPORARYCOLREARRANGEMENT": {
+        "HEADER": "Temporary Column Rearrangement",
+        "BODY": "<div><ul><li class='contextTooltipBullets'>To further customize your current view, column positions can be changed without having to open the Column Options Panel.</li><li class='contextTooltipBullets'>This can be achieved by clicking on Selecting the column you want to reposition and dragging it to the place of interest.</li><li class='contextTooltipBullets'>By default, this column arrangement will not be saved as part of the current layout configuration. To save the new column order layout as part of the current view, open the column options panel and select the save button.</ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/Layout+Operations",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "EDITABLEFIELDS": {
+        "HEADER": "Editable Fields",
+        "BODY": "<div><ul><li class='contextTooltipBullets'>Activity Monitor consists of 9 editable fields* in total.</li><li class='contextTooltipBullets'>Eight correspond to Qtrac data points and one is a newly introduced quantity called EDO Priority.</li><li class='contextTooltipBullets'>These editable fields* can be categorized at two levels:</li><ul><li>a. TCO (EDP) Level: Planned Ship Date, TLM Ship Date, Priority, TCO Comments, Shipping Instructions and Maintenance & Operations.</li><li>b. TCO (EDP) Level: Next Ship Date, TLM Actual Ship Date, EDO Priority</li></ul><li class='contextTooltipBullets'>*  Out of these fields, the ones available for editing for your assigned role will be displayed in a white background on the grid. </li></ul></div>",
+        "EMBEDDEDLINK": "https://wiki.slb.com/display/FMP/User+Permissions",
+        "EMBEDDEDVIDEOLINK": "https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb"
+      },
+      "COMMONWIKILINK": "Click here to view more on FMP Wiki",
+      "COMMONFMPVIDEOLINK": "Click here to view more on FMP Quick Help 365 Video channel",
+      "ERROR": {
+        "TCOERROR": " while updating TCO #",
+        "RETRYERROR": "Retry count excceeded for GUID Api",
+        "MATEOAPINOTFOUND": "Mateo Api Response - Not Found"
+      }
+    },
+    "PLANNING_SCHEDULING": {
+      "FMP_WIKI": {
+        "HEADER": "FMP Wiki",
+        "BODY": "<div class='content-center'><ol type='a'><li class='contextTooltipBullets' style='list-type:none'>a. <a href='https://wiki.slb.com/pages/viewpage.action?pageId=124128177' target='_blank'> FMP Wiki</a></li> <li class='contextTooltipBullets' style='list-type:none'>b. <a href='https://slb001.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=c&chid=e6036c5c-41fa-4c69-bf2c-b754781dfd9e&s=0&t=pfb' target='_blank'> FMP Quick Help O365 Video channel</a></li></ol></div>"
+      }
+    }
+  },
+  "WORKCENTER": {
+    "LEFTPANEL": {
+      "SITE": "Site",
+      "SITE_WORKSTATION": {
+        "SITE_WORKSTATIONS": "Site Work Stations",
+        "ADD_NEW_WORKSTATION": "Add New Work Station",
+        "CREATE_WORKSTATION": {
+          "CREATE_NEW_WORKSTATION": "Create New Work Station",
+          "NAME": "Name",
+          "TYPE": "Type",
+          "DESCRIPTION": "Description",
+          "ATTRIBUTE_1": "Default Duration",
+          "ATTRIBUTE_2": "Maintenance Characteristics",
+          "ATTRIBUTE_3": "Attribute 3",
+          "ACTION_1": "Out of Order Status",
+          "ACTION_2": "Action 2",
+          "ACTION_3": "Action 3",
+          "ACTION_4": "Action 4",
+          "ACTION_5": "Action 5",
+          "ACTION_6": "Action 6",
+          "SHIFTSTARTIME": "Shift Start",
+          "SHIFTENDIME": "Shift End",
+          "BREAKSTART": "Break Start",
+          "BREAKEND": "Break End",
+          "FIRSTDAY": "First day of week",
+          "WORKWEEK": "Work Week",
+          "SHIFT": "Shift",
+          "MAX_LIMIT_MESSAGE": "Maximum of 40 Work Station can be created"
+        },
+        "DELETE_WORKSTATION": {
+          "WARNNING": "Warning",
+          "YES": "Yes",
+          "NO": "No",
+          "DELETE_RESOURCE_CONTENT_ONE": "Are you sure you want to remove resources from",
+          "DELETE_RESOURCE_CONTENT_TWO": "By removing resources you will lose all planned and scheduled associations including Capacity and Work Order Assignment.",
+          "DELETE_RESOURCE_CONTENT_THREE": "You CAN NOT undo this action"
+        },
+        "POPOVER": {
+          "EDIT": "Edit",
+          "DELETE": "Delete"
+        }
+      }
+    },
+    "WORKCENTER_GRID": {
+      "MANAGE_VIEWS": "Manage Views",
+      "YES": "Yes",
+      "NO": "No"
+    }
+  },
+
+  "SHARED": {
+    "COLUMNOPTIONS": {
+      "OPTIONHEADER": "Column Options",
+      "SAVEDLAYOUTS": "Saved Column Layouts",
+      "COLUMNACTIONS": "Add or remove columns",
+      "MESSAGE": " To change the column order, drag and drop a field. To lock a column and move to front of list,click the lock icon.",
+      "COLUMNS": "Columns",
+      "COLUMNLOCK": "Lock",
+      "COLUMNADD": "Add a Column",
+      "COLUMNNEW": "Add New"
+    }
+  },
+
+  "EQUIPMENTGRID": {
+    "MANAGE_VIEWS": "Manage Views",
+    "ASSET_TYPE": "Asset Type",
+    "RIME": "RIME",
+    "ASSET_NUMBER": "Asset Number",
+    "WORK_TYPE_AND_LEVEL": "Work Type and Level",
+    "OPERATIONAL_STATUS": "Operational Status",
+    "MAINTENANCE_STATUS": "Maintenance Status",
+    "PM_INDICATOR": "PM Indicator",
+    "EQUIPMEMT_STATUS_4": "Equipment Status 4",
+    "EQUIPMENT_STATUS_5": "Equipment Status 5",
+    "LOCATED": "Located",
+    "WO_NUMBER": "WO Number",
+    "WO_EXPECTED_DURATION": "WO Expected Duration",
+    "WO_PLANNED_START_DATE": "WO Planned Start Date",
+    "WO_PROMISE_DATE": "WO Promise Date",
+    "WO_WC_ASSIGNMENT": "WO WC Assignment",
+    "WO_EMPLOYEE_ASSIGNED": "WO Employee Assigned",
+    "WO_STATUS": "WO Status",
+    "ASSOCIATION_ID": "Association ID",
+    "TOOLSET_NAME": "Toolset Name",
+    "LOCATEDSITE_NAME": "Located Site Name",
+    "DAYS_IN_LOCATES_SITE": "Days in Located Site",
+    "PARENT_WO": "Parent WO",
+    "PAU": "PAU",
+    "LIFE": "Life",
+    "RIME_INDEX": "RIME Index",
+    "WO_DESCRIPTION": "WO Description",
+    "WO_DETAILED_DESCRIPTION": "WO Detailed Description",
+    "PSD_REQUESTED_DATE": "PSD Requested Date",
+    "PSD_REQUESTING_DISTRICT": "PSD Requesting District",
+    "WO_TMO_STATUS": "WO TMO Status",
+    "FRNO": "FRNo",
+    "FR_STATUS": "FR Status",
+    "WO_TMO_EDD": "WO TMO EDD",
+    "LIFE_DETAILS": "Life Details",
+    "CREATE_WO": "Create WO",
+    "Equipment_Manual_Description": "Equipment Manual Description"
+  },
+  "SCHEDULER": {
+    "WORK_STATIONS": "Work Stations",
+    "EVENT_ACTIONS": {
+      "VIEW_WORK_ORDERS": "View Work Orders",
+      "VIEW_COMMENTS": "View Comments",
+      "SELECT_ALL_INSTANCES": "Select All Instances",
+      "DESELECT_ALL_INSTANCES": "Deselect All Instances",
+      "ADD_NEW_INSTANCE": "Add New Instance",
+      "RESCHEDULE_TO_PARTS_AVAILABLE": "Reschedule To Parts Available",
+      "REMOVE_FROM_BOARD": "Remove from Board"
+    },
+    "DELETE_EVENT": {
+      "WARNING": "Warning",
+      "REMOVE_ALL_EVENTS_QUESTION": "Would you like to remove all instances of this asset from the planning board?",
+      "NO_UNDONE": "This action can not be undone.",
+      "BUTTONS": {
+        "REMOVE_SELECTED": "Remove selected only",
+        "REMOVE_ALL": "Remove all instances",
+        "CANCEL": "Close and do not remove"
+      }
+    },
+    "WORK_ORDER_DETAILS": {
+      "ASSET_DETAILS": "Asset Details",
+      "WORK_ORDER": "Work Order"
+    }
+  },
+  "EDOTOLLDIALOG": {
+    "HEADING": "Remove Tool Assignment",
+    "INFO_TEXT_1": "WARNING, YOU ARE ABOUT TO REMOVE THE ASSIGNED TOOL(S) FOR THE SELECTED EDO(S)",
+    "INFO_TEXT_2": "Please confimr the REMOVAL of the assigned tools:",
+    "REMOVE_ASSINGED_BTN": "Remove Assigned Tools",
+    "DONOT_REMOVE_TOOLS_BTN": "Do Not Remove Tools"
+  }
+}

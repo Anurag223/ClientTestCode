@@ -1,0 +1,29 @@
+parameters:
+  configuration: ''
+  dockerid: ''
+  dockerpassword: ''
+  dockerregistry: ''
+  imagename: ''
+  BuildBuildId: ''
+  ArtifactStagingDirectory: ''
+  DefaultWorkingDirectory: ''
+
+steps:
+  #- task: DeleteFiles@1
+  #  inputs:
+  #    sourceFolder: 'ui'
+  #    contents: 'app'
+
+  - script: |
+      cd "${{parameters.DefaultWorkingDirectory}}\ui" 
+      docker build ${{parameters.cacheDirective}} -t ${{parameters.dockerregistry}}/${{parameters.imagename}}:${{parameters.imageTag}} -t ${{parameters.dockerregistry}}/${{parameters.imagename}}:${{parameters.BuildBuildId}} .
+    displayName: docker build ${{parameters.imagename}}
+
+  - script: docker login -u ${{parameters.dockerid}} -p ${{parameters.dockerpassword}} ${{parameters.dockerregistry}}
+    displayName: docker login
+
+  - script: docker push ${{parameters.dockerregistry}}/${{parameters.imagename}}:${{parameters.BuildBuildId}}
+    displayName: docker push ${{parameters.imagename}}:${{parameters.BuildBuildId}}
+
+  - script: docker push ${{parameters.dockerregistry}}/${{parameters.imagename}}:${{parameters.imageTag}}
+    displayName: docker push ${{parameters.imagename}}:${{parameters.imageTag}}

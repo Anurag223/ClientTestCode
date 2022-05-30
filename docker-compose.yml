@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  tlm-utils-api-dev:
+    image: azr6382cr01.azurecr.io/mateo2/tlm-utils-api-dev:${IMAGE_TAG}
+    hostname: tlm-utils-api-dev
+    container_name: tlm-utils-api-dev
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ENVIRONMENT}
+      - MongoConnection__ConnectionString=${MONGOCONNECTION__CONNECTIONSTRING}
+      - MongoConnection__Database=${MONGOCONNECTION__DATABASE}
+      - IdentityUrl=${IDENTITYURL}
+      - mateo2Url=${MATEO2URL}
+      - EhcDemoApi__OdmEndpointToken=${EHCDEMOAPI__ODMENDPOINTTOKEN}
+      - EhcDemoApi__EhcApiClientSecret=${EHCDEMOAPI__EHCAPICLIENTSECRET}
+    ports:
+      - '32211:80'
+    networks:
+      - tlm.fed.net
+    restart: unless-stopped
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '20m'
+        max-file: '3'
+
+
+networks:
+  tlm.fed.net:
+    external:
+      name: tlm.fed.net 
+

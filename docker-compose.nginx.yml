@@ -1,0 +1,18 @@
+version: '3'
+
+services: 
+  tlm-utils-nginx:
+    image: nginx:1.15.11
+    container_name: tlm-utils-nginx
+    ports: 
+      - "9149:443"
+    volumes: 
+      - /opt/util-infra-conf.d/:/etc/nginx/conf.d/
+      - /opt/nginx-compose/certs/:/certs/
+    networks:
+      - tlm.fed.net
+networks:
+  tlm.fed.net:
+    external:
+      name: tlm.fed.net  
+
